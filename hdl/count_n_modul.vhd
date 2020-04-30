@@ -1,8 +1,11 @@
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
--- use ieee.numeric_std.all;
 USE ieee.std_logic_arith.ALL;
 USE ieee.std_logic_unsigned.ALL;
+
+-- Параметризируемый N разрядный счетчик
+-- qout |0  ||1  ||x  |____________|m-1||0  |....   m - это модуль (modul)
+-- cout ___________________________|```|_________   сигнал переполнения
 
 ENTITY count_n_modul IS
   GENERIC (n : INTEGER:=8);
