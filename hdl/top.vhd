@@ -3,7 +3,7 @@ library ieee;
 use IEEE.STD_LOGIC_1164.ALL;
 use ieee.numeric_std.all;
 use work.VIDEO_CONSTANTS.all;
-
+use work.My_component_pkg.all;
 -- проект ЭКБ для АО "НИИ Телевидения"
 -- версия платы PCB ekb_ctrl (31.10.2019 19-41-31)
 -- два фотоприемника IMX265 в режиме окна 2200х1250
@@ -103,6 +103,35 @@ entity EKB_top is
 end EKB_top;
 
 architecture rtl of EKB_top is
+----------------------------------------------------------------------
+---модель симцуляции цотоприемника
+----------------------------------------------------------------------
+component IMAGE_SENSOR_SIM is
+port (
+		--входные сигналы--	
+	CLK					: in std_logic;  												-- тактовый 
+	mode_generator		: in std_logic_vector (7 downto 0);						-- задание генератора
+		--выходные сигналы--	
+	XVS_Imx_Sim			: out std_logic; 												-- синхронизация
+	XHS_Imx_Sim			: out std_logic; 												-- синхронизация
+	DATA_IS_PAR			: out	std_logic_vector (bit_data_imx-1 downto 0);	-- выходной сигнал
+	DATA_IS_LVDS_ch_1	: out	std_logic; 												-- выходной сигнал в канале 1
+	DATA_IS_LVDS_ch_2	: out	std_logic; 												-- выходной сигнал в канале 2
+	DATA_IS_LVDS_ch_3	: out	std_logic; 												-- выходной сигнал в канале 3
+	DATA_IS_LVDS_ch_4	: out	std_logic; 												-- выходной сигнал в канале 4
+	DATA_IS_CSI			: out	std_logic; 												-- выходной сигнал CSI
+	CLK_DDR				: out std_logic		
+		);
+end component;
+signal XVS_Imx_Sim				: std_logic:='0';
+signal XHS_Imx_Sim				: std_logic:='0';
+signal DATA_IS_LVDS_ch_1_Sim	: std_logic:='0';
+signal DATA_IS_LVDS_ch_2_Sim	: std_logic:='0';
+signal DATA_IS_LVDS_ch_3_Sim	: std_logic:='0';
+signal DATA_IS_LVDS_ch_4_Sim	: std_logic:='0';
+signal DATA_IS_CSI_Sim			: std_logic:='0';
+signal CLK_DDR_Sim				: std_logic:='0';
+signal DATA_IS_PAR_Sim			: std_logic_vector (bit_data_imx-1 downto 0):=(Others => '0'); 
 
 ----------------------------------------------------------------------
 ---модуль синхрогенератора
@@ -181,6 +210,28 @@ signal MAIN_ENABLE			: std_logic:='1';
 signal MAIN_reset				: std_logic:='1';						
 ---------------------------------------------------
 begin
+
+
+----------------------------------------------------------------------
+---модель симцуляции цотоприемника
+----------------------------------------------------------------------
+IMAGE_SENSOR_SIM_q: IMAGE_SENSOR_SIM                    
+port map (
+				-----in---------
+	CLK					=>	CLK_in,			
+	mode_generator  	=>	x"00",			
+
+				------ out------
+	XVS_Imx_Sim				=> XVS_Imx_Sim,
+	XHS_Imx_Sim				=> XHS_Imx_Sim,
+	DATA_IS_PAR				=>	DATA_IS_PAR_Sim,
+	-- DATA_IS_LVDS_ch_1		=>	IMX_1_XHS,
+	-- DATA_IS_LVDS_ch_2		=>	IMX_1_XVS,
+	-- DATA_IS_LVDS_ch_3		=>	MAIN_ENABLE,
+	-- DATA_IS_LVDS_ch_4		=>	reset_sync_gen,
+	-- DATA_IS_CSI				=>	MAIN_reset
+	CLK_DDR					=>	CLK_DDR_Sim	
+	);
 
 ----------------------------------------------------------------------
 ---модуль сброса

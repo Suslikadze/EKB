@@ -2,6 +2,7 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.all;
 use ieee.numeric_std.all;
+use work.My_component_pkg.all;
 
 entity parall_to_serial is
 generic 

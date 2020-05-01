@@ -3,6 +3,7 @@ library ieee;
 use IEEE.STD_LOGIC_1164.ALL;
 use ieee.numeric_std.all;
 use work.VIDEO_CONSTANTS.all;
+use work.My_component_pkg.all;
 
 entity IS_SIM_serial_DDR is
 ------------------------------------модуль управления ФП-----------------------------------------------------
