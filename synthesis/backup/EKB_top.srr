@@ -1,0 +1,443 @@
+#Build: Synplify Pro L-2016.09M-2, Build 065R, Nov 16 2016
+#install: C:\Microsemi\Libero_SoC_v11.8\SynplifyPro
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-C6MTIST
+
+# Wed Apr 29 14:16:44 2020
+
+#Implementation: synthesis
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 127R, built Nov 24 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":7:7:7:13|Top entity is set to EKB_top.
+VHDL syntax check successful!
+@N: CD231 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":7:7:7:13|Synthesizing work.ekb_top.rtl.
+@W: CD326 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":166:0:166:14|Port reset_4 of entity work.reset_control is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":166:0:166:14|Port reset_3 of entity work.reset_control is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":187:0:187:23|Port qout_clk_total of entity work.sync_gen_pix_str_frame is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD638 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":121:7:121:20|Signal qout_clk_total is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":155:7:155:19|Signal lock_pll_rx_1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":156:7:156:19|Signal lock_pll_rx_2 is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"G:\ACTELL\EKB\EKB\EKB\hdl\sync_gen_pix_str_frame.vhd":9:7:9:28|Synthesizing work.sync_gen_pix_str_frame.beh.
+@W: CD326 :"G:\ACTELL\EKB\EKB\EKB\hdl\sync_gen_pix_str_frame.vhd":128:0:128:8|Port cout of entity work.count_n_modul is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"G:\ACTELL\EKB\EKB\EKB\hdl\sync_gen_pix_str_frame.vhd":214:0:214:8|Port cout of entity work.count_n_modul is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD638 :"G:\ACTELL\EKB\EKB\EKB\hdl\sync_gen_pix_str_frame.vhd":42:7:42:23|Signal qout_clk_total_in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"G:\ACTELL\EKB\EKB\EKB\hdl\sync_gen_pix_str_frame.vhd":43:7:43:20|Signal qout_clk_is_in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"G:\ACTELL\EKB\EKB\EKB\hdl\sync_gen_pix_str_frame.vhd":44:7:44:25|Signal qout_clk_total_in_1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"G:\ACTELL\EKB\EKB\EKB\hdl\sync_gen_pix_str_frame.vhd":45:7:45:19|Signal qout_clk_is_1 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"G:\ACTELL\EKB\EKB\EKB\hdl\sync_gen_pix_str_frame.vhd":46:7:46:19|Signal qout_frame_in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"G:\ACTELL\EKB\EKB\EKB\hdl\sync_gen_pix_str_frame.vhd":47:7:47:15|Signal qout_v_in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"G:\ACTELL\EKB\EKB\EKB\hdl\sync_gen_pix_str_frame.vhd":48:7:48:19|Signal ena_clk_x2_in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"G:\ACTELL\EKB\EKB\EKB\hdl\sync_gen_pix_str_frame.vhd":49:7:49:19|Signal ena_clk_x4_in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"G:\ACTELL\EKB\EKB\EKB\hdl\sync_gen_pix_str_frame.vhd":50:7:50:19|Signal ena_clk_x8_in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"G:\ACTELL\EKB\EKB\EKB\hdl\sync_gen_pix_str_frame.vhd":51:7:51:20|Signal ena_clk_x16_in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"G:\ACTELL\EKB\EKB\EKB\hdl\sync_gen_pix_str_frame.vhd":67:7:67:13|Signal clk_1_3 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"G:\ACTELL\EKB\EKB\EKB\hdl\sync_gen_pix_str_frame.vhd":85:7:85:13|Signal clk_2_3 is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"G:\ACTELL\EKB\EKB\EKB\hdl\count_n_modul.vhd":7:7:7:19|Synthesizing work.count_n_modul.beh.
+Post processing for work.count_n_modul.beh
+@W: CL113 :"G:\ACTELL\EKB\EKB\EKB\hdl\count_n_modul.vhd":30:1:30:2|Feedback mux created for signal qint[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"G:\ACTELL\EKB\EKB\EKB\hdl\count_n_modul.vhd":30:1:30:2|Feedback mux created for signal cout. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@N: CD630 :"G:\ACTELL\EKB\EKB\EKB\hdl\count_n_modul.vhd":7:7:7:19|Synthesizing work.count_n_modul.beh.
+Post processing for work.count_n_modul.beh
+@W: CL113 :"G:\ACTELL\EKB\EKB\EKB\hdl\count_n_modul.vhd":30:1:30:2|Feedback mux created for signal qint[15:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"G:\ACTELL\EKB\EKB\EKB\hdl\count_n_modul.vhd":30:1:30:2|Feedback mux created for signal cout. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@N: CD630 :"G:\ACTELL\EKB\EKB\EKB\hdl\count_n_modul.vhd":7:7:7:19|Synthesizing work.count_n_modul.beh.
+Post processing for work.count_n_modul.beh
+@W: CL113 :"G:\ACTELL\EKB\EKB\EKB\hdl\count_n_modul.vhd":30:1:30:2|Feedback mux created for signal qint[12:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"G:\ACTELL\EKB\EKB\EKB\hdl\count_n_modul.vhd":30:1:30:2|Feedback mux created for signal cout. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@N: CD630 :"G:\ACTELL\EKB\EKB\EKB\smartgen\PLL_1\PLL_1.vhd":8:7:8:11|Synthesizing work.pll_1.def_arch.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\proasic3l.vhd":3977:10:3977:12|Synthesizing proasic3l.pll.syn_black_box.
+Post processing for proasic3l.pll.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\proasic3l.vhd":3000:10:3000:12|Synthesizing proasic3l.vcc.syn_black_box.
+Post processing for proasic3l.vcc.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\proasic3l.vhd":1901:10:1901:12|Synthesizing proasic3l.gnd.syn_black_box.
+Post processing for proasic3l.gnd.syn_black_box
+Post processing for work.pll_1.def_arch
+@N: CD630 :"G:\ACTELL\EKB\EKB\EKB\smartgen\PLL_0\PLL_0.vhd":8:7:8:11|Synthesizing work.pll_0.def_arch.
+Post processing for work.pll_0.def_arch
+Post processing for work.sync_gen_pix_str_frame.beh
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\sync_gen_pix_str_frame.vhd":23:1:23:14|Signal qout_clk_total is floating; a simulation mismatch is possible.
+@W: CL169 :"G:\ACTELL\EKB\EKB\EKB\hdl\sync_gen_pix_str_frame.vhd":35:36:35:38|Pruning unused register ena_pix_total_cnt_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"G:\ACTELL\EKB\EKB\EKB\hdl\sync_gen_pix_str_frame.vhd":156:1:156:2|Pruning unused register ena_clk_x_q_in_11(0). Make sure that there are no unused intermediate registers.
+@N: CD630 :"G:\ACTELL\EKB\EKB\EKB\hdl\reset_control.vhd":7:8:7:20|Synthesizing work.reset_control.beh.
+Post processing for work.reset_control.beh
+@W: CL169 :"G:\ACTELL\EKB\EKB\EKB\hdl\reset_control.vhd":56:0:56:1|Pruning unused register cnt_V_imx_4(31 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"G:\ACTELL\EKB\EKB\EKB\hdl\reset_control.vhd":45:0:45:1|Pruning unused register sync_V_imx_4. Make sure that there are no unused intermediate registers.
+Post processing for work.ekb_top.rtl
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":85:1:85:4|Signal GPIO is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":84:1:84:6|Signal GPIO10 is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":83:1:83:5|Signal GPIO9 is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":82:1:82:5|Signal GPIO8 is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":81:1:81:5|Signal GPIO7 is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":80:1:80:5|Signal GPIO6 is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":79:1:79:5|Signal GPIO5 is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":78:1:78:5|Signal GPIO4 is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":77:1:77:5|Signal GPIO3 is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":76:1:76:5|Signal GPIO2 is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":75:1:75:5|Signal GPIO1 is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":74:1:74:5|Signal GPIO0 is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":73:1:73:11|Signal Wide_Narrow is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":72:1:72:4|Signal CMD2 is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":71:1:71:4|Signal CMD1 is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":70:1:70:4|Signal Sync is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":69:1:69:5|Signal Get_m is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":67:1:67:8|Signal OE_Mem_1 is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":66:1:66:9|Signal CEn_Mem_1 is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":65:1:65:8|Signal WE_Mem_1 is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":64:1:64:10|Signal ADDR_Mem_1 is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":61:1:61:7|Signal DAC_SFL is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":60:1:60:7|Signal DAC_CLK is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":59:1:59:7|Signal DAC_SCL is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":58:1:58:7|Signal DAC_SDA is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":57:1:57:7|Signal DAC_LF2 is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":56:1:56:7|Signal DAC_LF1 is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":55:1:55:8|Signal DAC_PBLK is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":54:1:54:10|Signal DAC_PVSYNC is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":53:1:53:10|Signal DAC_PHSYNC is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":52:1:52:5|Signal DAC_Y is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":40:1:40:11|Signal IMX_2_XTRIG is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":39:1:39:10|Signal IMX_2_INCK is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":38:1:38:9|Signal IMX_2_XCE is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":37:1:37:9|Signal IMX_2_SDO is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":36:1:36:9|Signal IMX_2_SDI is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":35:1:35:9|Signal IMX_2_SCK is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":34:1:34:10|Signal IMX_2_XCLR is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":20:1:20:11|Signal IMX_1_XTRIG is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":19:1:19:10|Signal IMX_1_INCK is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":18:1:18:9|Signal IMX_1_XCE is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":17:1:17:9|Signal IMX_1_SDO is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":16:1:16:9|Signal IMX_1_SDI is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":15:1:15:9|Signal IMX_1_SCK is floating; a simulation mismatch is possible.
+@W: CL240 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":14:1:14:10|Signal IMX_1_XCLR is floating; a simulation mismatch is possible.
+@W: CL168 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":187:0:187:23|Removing instance sync_gen_pix_str_frame_q because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":166:0:166:14|Removing instance reset_control_q because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CL159 :"G:\ACTELL\EKB\EKB\EKB\hdl\reset_control.vhd":10:1:10:10|Input Reset_main is unused.
+@N: CL159 :"G:\ACTELL\EKB\EKB\EKB\hdl\reset_control.vhd":15:4:15:9|Input Sync_x is unused.
+@N: CL159 :"G:\ACTELL\EKB\EKB\EKB\hdl\reset_control.vhd":16:4:16:10|Input XHS_imx is unused.
+@N: CL159 :"G:\ACTELL\EKB\EKB\EKB\hdl\reset_control.vhd":17:1:17:7|Input XVS_imx is unused.
+@W: CL157 :"G:\ACTELL\EKB\EKB\EKB\hdl\sync_gen_pix_str_frame.vhd":156:1:156:2|Output ena_clk_x_q has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@N: CL159 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":12:1:12:9|Input IMX_1_XHS is unused.
+@N: CL159 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":13:1:13:9|Input IMX_1_XVS is unused.
+@N: CL159 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":21:1:21:12|Input IMX_1_CH_0_P is unused.
+@N: CL159 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":22:1:22:12|Input IMX_1_CH_0_N is unused.
+@N: CL159 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":23:1:23:12|Input IMX_1_CH_1_P is unused.
+@N: CL159 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":24:1:24:12|Input IMX_1_CH_1_N is unused.
+@N: CL159 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":25:1:25:12|Input IMX_1_CH_2_P is unused.
+@N: CL159 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":26:1:26:12|Input IMX_1_CH_2_N is unused.
+@N: CL159 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":27:1:27:12|Input IMX_1_CH_3_P is unused.
+@N: CL159 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":28:1:28:12|Input IMX_1_CH_3_N is unused.
+@N: CL159 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":29:1:29:11|Input IMX_1_CLK_P is unused.
+@N: CL159 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":30:1:30:11|Input IMX_1_CLK_N is unused.
+@N: CL159 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":32:1:32:9|Input IMX_2_XHS is unused.
+@N: CL159 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":33:1:33:9|Input IMX_2_XVS is unused.
+@N: CL159 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":41:1:41:12|Input IMX_2_CH_0_P is unused.
+@N: CL159 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":42:1:42:12|Input IMX_2_CH_0_N is unused.
+@N: CL159 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":43:1:43:12|Input IMX_2_CH_1_P is unused.
+@N: CL159 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":44:1:44:12|Input IMX_2_CH_1_N is unused.
+@N: CL159 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":45:1:45:12|Input IMX_2_CH_2_P is unused.
+@N: CL159 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":46:1:46:12|Input IMX_2_CH_2_N is unused.
+@N: CL159 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":47:1:47:12|Input IMX_2_CH_3_P is unused.
+@N: CL159 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":48:1:48:12|Input IMX_2_CH_3_N is unused.
+@N: CL159 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":49:1:49:11|Input IMX_2_CLK_P is unused.
+@N: CL159 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":50:1:50:11|Input IMX_2_CLK_N is unused.
+@W: CL158 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":63:1:63:10|Inout DATA_Mem_1 is unused
+@N: CL159 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":86:1:86:6|Input CLK_in is unused.
+@N: CL159 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":87:1:87:10|Input Reset_main is unused.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 76MB peak: 87MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Apr 29 14:16:45 2020
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+@N: NF107 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":7:7:7:13|Selected library: work cell: EKB_top view rtl as top level
+@N: NF107 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":7:7:7:13|Selected library: work cell: EKB_top view rtl as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Apr 29 14:16:45 2020
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Apr 29 14:16:45 2020
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 117R, built Nov 17 2016
+@N|Running in 64-bit mode
+@N: NF107 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":7:7:7:13|Selected library: work cell: EKB_top view rtl as top level
+@N: NF107 :"G:\ACTELL\EKB\EKB\EKB\hdl\top.vhd":7:7:7:13|Selected library: work cell: EKB_top view rtl as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Apr 29 14:16:46 2020
+
+###########################################################]
+Pre-mapping Report
+
+# Wed Apr 29 14:16:46 2020
+
+Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 1920R, Built Nov 17 2016 09:40:34
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: G:\ACTELL\EKB\EKB\EKB\synthesis\EKB_top_scck.rpt 
+Printing clock  summary report in "G:\ACTELL\EKB\EKB\EKB\synthesis\EKB_top_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 109MB)
+
+
+
+Clock Summary
+*****************
+
+Start     Requested     Requested     Clock     Clock     Clock
+Clock     Frequency     Period        Type      Group     Load 
+---------------------------------------------------------------
+===============================================================
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file G:\ACTELL\EKB\EKB\EKB\synthesis\EKB_top.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 109MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 109MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 23MB peak: 109MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Apr 29 14:16:47 2020
+
+###########################################################]
+Map & Optimize Report
+
+# Wed Apr 29 14:16:47 2020
+
+Synopsys Microsemi Technology Mapper, Version mapact, Build 1920R, Built Nov 17 2016 09:40:34
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+Writing Analyst data base G:\ACTELL\EKB\EKB\EKB\synthesis\synwork\EKB_top_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 109MB)
+
+Writing EDIF Netlist and constraint files
+L-2016.09M-2
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 109MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 109MB)
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Apr 29 14:16:47 2020
+#
+
+
+Top view:               EKB_top
+Library name:           pa3l
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.14, P = 1.26, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        pa3l
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: NA
+
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------
+========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 109MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 109MB)
+
+--------------------------------------------------------------------------------
+Target Part: A3PE3000L_FBGA484_STD
+Report for cell EKB_top.rtl
+  Core Cell usage:
+              cell count     area count*area
+               GND     1      0.0        0.0
+               VCC     1      0.0        0.0
+
+
+                   -----          ----------
+             TOTAL     2                 0.0
+
+
+  IO Cell usage:
+              cell count
+            OUTBUF    73
+                   -----
+             TOTAL    73
+
+
+Core Cells         : 0 of 75264 (0%)
+IO Cells           : 73
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 112 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 24MB peak: 109MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Apr 29 14:16:47 2020
+
+###########################################################]

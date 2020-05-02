@@ -1,0 +1,701 @@
+# Reading C:/questasim64_10.4c/tcl/vsim/pref.tcl
+# //  Questa Sim-64
+# //  Version 10.4c win64 Jul 20 2015
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# do run.do
+# INFO: Simulation library presynth already exists
+# QuestaSim-64 vmap 10.4c Lib Mapping Utility 2015.07 Jul 20 2015
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# QuestaSim-64 vmap 10.4c Lib Mapping Utility 2015.07 Jul 20 2015
+# vmap proasic3l C:/Microsemi/Libero_SoC_v11.8/Designer/lib/questa/precompiled/vlog/proasic3l 
+# Modifying modelsim.ini
+# QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 03:50:08 on May 02,2020
+# vcom -reportprogress 300 -2008 -explicit -work presynth G:/ACTELL/EKB/EKB/Libero/hdl/my_component_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling package My_component_pkg
+# End time: 03:50:08 on May 02,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 03:50:08 on May 02,2020
+# vcom -reportprogress 300 -2008 -explicit -work presynth G:/ACTELL/EKB/EKB/Libero/hdl/VIDEO_CONSTANTS.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling package VIDEO_CONSTANTS
+# End time: 03:50:08 on May 02,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 03:50:08 on May 02,2020
+# vcom -reportprogress 300 -2008 -explicit -work presynth G:/ACTELL/EKB/EKB/Libero/hdl/reset_control.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package VIDEO_CONSTANTS
+# -- Loading package My_component_pkg
+# -- Compiling entity reset_control
+# -- Compiling architecture beh of reset_control
+# End time: 03:50:08 on May 02,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 03:50:08 on May 02,2020
+# vcom -reportprogress 300 -2008 -explicit -work presynth G:/ACTELL/EKB/EKB/Libero/smartgen/PLL_0/PLL_0.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity PLL_0
+# -- Compiling architecture DEF_ARCH of PLL_0
+# End time: 03:50:08 on May 02,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 03:50:08 on May 02,2020
+# vcom -reportprogress 300 -2008 -explicit -work presynth G:/ACTELL/EKB/EKB/Libero/smartgen/PLL_1/PLL_1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity PLL_1
+# -- Compiling architecture DEF_ARCH of PLL_1
+# End time: 03:50:08 on May 02,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 03:50:09 on May 02,2020
+# vcom -reportprogress 300 -2008 -explicit -work presynth G:/ACTELL/EKB/EKB/Libero/hdl/count_n_modul.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity count_n_modul
+# -- Compiling architecture beh of count_n_modul
+# End time: 03:50:09 on May 02,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 03:50:09 on May 02,2020
+# vcom -reportprogress 300 -2008 -explicit -work presynth G:/ACTELL/EKB/EKB/Libero/hdl/gen_pix_str_frame.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package VIDEO_CONSTANTS
+# -- Loading package My_component_pkg
+# -- Compiling entity gen_pix_str_frame
+# -- Compiling architecture beh of gen_pix_str_frame
+# End time: 03:50:09 on May 02,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 03:50:09 on May 02,2020
+# vcom -reportprogress 300 -2008 -explicit -work presynth G:/ACTELL/EKB/EKB/Libero/hdl/sync_gen_pix_str_frame.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package VIDEO_CONSTANTS
+# -- Loading package My_component_pkg
+# -- Compiling entity sync_gen_pix_str_frame
+# -- Compiling architecture beh of sync_gen_pix_str_frame
+# End time: 03:50:09 on May 02,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 03:50:09 on May 02,2020
+# vcom -reportprogress 300 -2008 -explicit -work presynth G:/ACTELL/EKB/EKB/Libero/hdl/parall_to_serial.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package My_component_pkg
+# -- Compiling entity parall_to_serial
+# -- Compiling architecture piso_arc of parall_to_serial
+# End time: 03:50:09 on May 02,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 03:50:09 on May 02,2020
+# vcom -reportprogress 300 -2008 -explicit -work presynth G:/ACTELL/EKB/EKB/Libero/hdl/IS_SIM_serial_DDR.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package VIDEO_CONSTANTS
+# -- Loading package My_component_pkg
+# -- Compiling entity IS_SIM_serial_DDR
+# -- Compiling architecture beh of IS_SIM_serial_DDR
+# End time: 03:50:09 on May 02,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 03:50:09 on May 02,2020
+# vcom -reportprogress 300 -2008 -explicit -work presynth G:/ACTELL/EKB/EKB/Libero/smartgen/PLL_SIM_IS/PLL_SIM_IS.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity PLL_SIM_IS
+# -- Compiling architecture DEF_ARCH of PLL_SIM_IS
+# End time: 03:50:09 on May 02,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 03:50:09 on May 02,2020
+# vcom -reportprogress 300 -2008 -explicit -work presynth G:/ACTELL/EKB/EKB/Libero/smartgen/PLL_SIM_IS_1/PLL_SIM_IS_1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity PLL_SIM_IS_1
+# -- Compiling architecture DEF_ARCH of PLL_SIM_IS_1
+# End time: 03:50:09 on May 02,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 03:50:09 on May 02,2020
+# vcom -reportprogress 300 -2008 -explicit -work presynth G:/ACTELL/EKB/EKB/Libero/hdl/noise_gen.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity noise_gen
+# -- Compiling architecture beh of noise_gen
+# End time: 03:50:09 on May 02,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 03:50:09 on May 02,2020
+# vcom -reportprogress 300 -2008 -explicit -work presynth G:/ACTELL/EKB/EKB/Libero/hdl/PATHERN_GENERATOR.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package VIDEO_CONSTANTS
+# -- Loading package My_component_pkg
+# -- Compiling entity PATHERN_GENERATOR
+# -- Compiling architecture beh of PATHERN_GENERATOR
+# End time: 03:50:09 on May 02,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 03:50:09 on May 02,2020
+# vcom -reportprogress 300 -2008 -explicit -work presynth G:/ACTELL/EKB/EKB/Libero/hdl/TRS_gen.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package VIDEO_CONSTANTS
+# -- Loading package My_component_pkg
+# -- Compiling entity TRS_gen
+# -- Compiling architecture beh of TRS_gen
+# End time: 03:50:09 on May 02,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 03:50:09 on May 02,2020
+# vcom -reportprogress 300 -2008 -explicit -work presynth G:/ACTELL/EKB/EKB/Libero/hdl/IS_SIM_Paralell.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package VIDEO_CONSTANTS
+# -- Loading package My_component_pkg
+# -- Compiling entity IS_SIM_Paralell
+# -- Compiling architecture beh of IS_SIM_Paralell
+# End time: 03:50:10 on May 02,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 03:50:10 on May 02,2020
+# vcom -reportprogress 300 -2008 -explicit -work presynth G:/ACTELL/EKB/EKB/Libero/hdl/IMAGE_SENSOR_SIM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package VIDEO_CONSTANTS
+# -- Loading package My_component_pkg
+# -- Compiling entity IMAGE_SENSOR_SIM
+# -- Compiling architecture beh of IMAGE_SENSOR_SIM
+# End time: 03:50:10 on May 02,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 03:50:10 on May 02,2020
+# vcom -reportprogress 300 -2008 -explicit -work presynth G:/ACTELL/EKB/EKB/Libero/hdl/top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package VIDEO_CONSTANTS
+# -- Loading package My_component_pkg
+# -- Compiling entity EKB_top
+# -- Compiling architecture rtl of EKB_top
+# End time: 03:50:10 on May 02,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 03:50:10 on May 02,2020
+# vcom -reportprogress 300 -2008 -explicit -work presynth G:/ACTELL/EKB/EKB/Libero/stimulus/tb_EKB_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_EKB_top
+# -- Compiling architecture behavioral of tb_EKB_top
+# End time: 03:50:10 on May 02,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -L proasic3l -L presynth -t 1ps presynth.tb_EKB_top 
+# Start time: 03:50:10 on May 02,2020
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Loading std.standard
+# Refreshing G:/ACTELL/EKB/EKB/Libero/simulation/presynth.tb_ekb_top(behavioral)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading presynth.tb_ekb_top(behavioral)
+# Refreshing G:/ACTELL/EKB/EKB/Libero/simulation/presynth.ekb_top(rtl)
+# Loading ieee.numeric_std(body)
+# Refreshing G:/ACTELL/EKB/EKB/Libero/simulation/presynth.video_constants
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading presynth.video_constants
+# Refreshing G:/ACTELL/EKB/EKB/Libero/simulation/presynth.my_component_pkg
+# Loading presynth.my_component_pkg
+# Loading presynth.ekb_top(rtl)
+# Refreshing G:/ACTELL/EKB/EKB/Libero/simulation/presynth.image_sensor_sim(beh)
+# Loading presynth.image_sensor_sim(beh)
+# Refreshing G:/ACTELL/EKB/EKB/Libero/simulation/presynth.pll_sim_is(def_arch)
+# Loading presynth.pll_sim_is(def_arch)
+# Loading proasic3l.PLL
+# Loading proasic3l.PLLPRIM
+# Loading proasic3l.GND
+# Loading proasic3l.VCC
+# Refreshing G:/ACTELL/EKB/EKB/Libero/simulation/presynth.pll_sim_is_1(def_arch)
+# Loading presynth.pll_sim_is_1(def_arch)
+# Refreshing G:/ACTELL/EKB/EKB/Libero/simulation/presynth.is_sim_paralell(beh)
+# Loading presynth.is_sim_paralell(beh)
+# Refreshing G:/ACTELL/EKB/EKB/Libero/simulation/presynth.gen_pix_str_frame(beh)
+# Loading presynth.gen_pix_str_frame(beh)
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q/gen_pix_str_frame_Inteface File: G:/ACTELL/EKB/EKB/Libero/hdl/gen_pix_str_frame.vhd
+# Refreshing G:/ACTELL/EKB/EKB/Libero/simulation/presynth.count_n_modul(beh)
+# Loading presynth.count_n_modul(beh)
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q/gen_pix_str_frame_Inteface File: G:/ACTELL/EKB/EKB/Libero/hdl/gen_pix_str_frame.vhd
+# Refreshing G:/ACTELL/EKB/EKB/Libero/simulation/presynth.pathern_generator(beh)
+# Loading presynth.pathern_generator(beh)
+# Refreshing G:/ACTELL/EKB/EKB/Libero/simulation/presynth.noise_gen(beh)
+# Loading presynth.noise_gen(beh)
+# Refreshing G:/ACTELL/EKB/EKB/Libero/simulation/presynth.trs_gen(beh)
+# Loading presynth.trs_gen(beh)
+# Refreshing G:/ACTELL/EKB/EKB/Libero/simulation/presynth.is_sim_serial_ddr(beh)
+# Loading presynth.is_sim_serial_ddr(beh)
+# Refreshing G:/ACTELL/EKB/EKB/Libero/simulation/presynth.parall_to_serial(piso_arc)
+# Loading presynth.parall_to_serial(piso_arc)
+# Loading proasic3l.DDR_OUT
+# Refreshing G:/ACTELL/EKB/EKB/Libero/simulation/presynth.reset_control(beh)
+# Loading presynth.reset_control(beh)
+# Refreshing G:/ACTELL/EKB/EKB/Libero/simulation/presynth.sync_gen_pix_str_frame(beh)
+# Loading presynth.sync_gen_pix_str_frame(beh)
+# Refreshing G:/ACTELL/EKB/EKB/Libero/simulation/presynth.pll_0(def_arch)
+# Loading presynth.pll_0(def_arch)
+# Refreshing G:/ACTELL/EKB/EKB/Libero/simulation/presynth.pll_1(def_arch)
+# Loading presynth.pll_1(def_arch)
+# Loading proasic3l.PLLINT
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/gen_pix_str_frame_IS File: G:/ACTELL/EKB/EKB/Libero/hdl/gen_pix_str_frame.vhd
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/gen_pix_str_frame_IS File: G:/ACTELL/EKB/EKB/Libero/hdl/gen_pix_str_frame.vhd
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/gen_pix_str_frame_Inteface File: G:/ACTELL/EKB/EKB/Libero/hdl/gen_pix_str_frame.vhd
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/gen_pix_str_frame_Inteface File: G:/ACTELL/EKB/EKB/Libero/hdl/gen_pix_str_frame.vhd
+# Loading proasic3l.Dffpr
+# Loading proasic3l.UDP_MUX2
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'GLA' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/PLL_SIM_IS_q0/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'GLB' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/PLL_SIM_IS_q0/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'GLC' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/PLL_SIM_IS_q0/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'YB' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/PLL_SIM_IS_q0/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'YC' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/PLL_SIM_IS_q0/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'GLA' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/PLL_SIM_IS_q1/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'GLB' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/PLL_SIM_IS_q1/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'GLC' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/PLL_SIM_IS_q1/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'YB' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/PLL_SIM_IS_q1/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'YC' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/PLL_SIM_IS_q1/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'GLA' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/PLL_0_q/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'GLB' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/PLL_0_q/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'GLC' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/PLL_0_q/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'YB' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/PLL_0_q/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'YC' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/PLL_0_q/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'GLA' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/PLL_1_q/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'GLB' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/PLL_1_q/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'GLC' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/PLL_1_q/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'YB' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/PLL_1_q/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'YC' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/PLL_1_q/Core File: nofile
+# ** Warning: (vsim-8683) Uninitialized out port /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/XVS_Imx_Sim has no driver.
+# 
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/XHS_Imx_Sim has no driver.
+# 
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/DATA_IS_PAR(11 downto 0) has no driver.
+# 
+# This port will contribute value (XXX) to the signal network.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: tvLABS  Hostname: DESKTOP-C6MTIST  ProcessID: 17316
+# 
+#           Attempting to use alternate WLF file "./wlfth9357k".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlfth9357k
+# 
+# ** Error: (vish-4014) No objects found matching '/tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q/DATA_IS_pix'.
+# Executing ONERROR command at macro G:\ACTELL\EKB\EKB\Libero\wave.do line 27
+#  ** Warning: FBSEL is unknown.
+#  Time: 0.0 Instance: tb_ekb_top.EKB_top_0.sync_gen_pix_str_frame_q.PLL_1_q.Core.P1 
+#  ** Warning: FBSEL is unknown.
+#  Time: 0.0 Instance: tb_ekb_top.EKB_top_0.sync_gen_pix_str_frame_q.PLL_0_q.Core.P1 
+#  ** Warning: FBSEL is unknown.
+#  Time: 0.0 Instance: tb_ekb_top.EKB_top_0.IMAGE_SENSOR_SIM_q.PLL_SIM_IS_q1.Core.P1 
+#  ** Warning: FBSEL is unknown.
+#  Time: 0.0 Instance: tb_ekb_top.EKB_top_0.IMAGE_SENSOR_SIM_q.PLL_SIM_IS_q0.Core.P1 
+#  ** Warning: FBSEL is unknown.
+#  Time: 0.0 Instance: tb_ekb_top.EKB_top_0.sync_gen_pix_str_frame_q.PLL_1_q.Core.P1 
+#  ** Warning: FBSEL is unknown.
+#  Time: 0.0 Instance: tb_ekb_top.EKB_top_0.sync_gen_pix_str_frame_q.PLL_0_q.Core.P1 
+#  ** Warning: FBSEL is unknown.
+#  Time: 0.0 Instance: tb_ekb_top.EKB_top_0.IMAGE_SENSOR_SIM_q.PLL_SIM_IS_q1.Core.P1 
+#  ** Warning: FBSEL is unknown.
+#  Time: 0.0 Instance: tb_ekb_top.EKB_top_0.IMAGE_SENSOR_SIM_q.PLL_SIM_IS_q0.Core.P1 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 717720 ps  Iteration: 1  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 717720 ps  Iteration: 1  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 717720 ps  Iteration: 1  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 717720 ps  Iteration: 1  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 717720 ps  Iteration: 1  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 717720 ps  Iteration: 1  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 717720 ps  Iteration: 1  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 717720 ps  Iteration: 1  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 717720 ps  Iteration: 1  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 717720 ps  Iteration: 1  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 717720 ps  Iteration: 1  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q
+vcom -2008 -explicit -work presynth G:/ACTELL/EKB/EKB/Libero/hdl/IS_SIM_Paralell.vhd
+# QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 03:51:25 on May 02,2020
+# vcom -reportprogress 300 -2008 -explicit -work presynth G:/ACTELL/EKB/EKB/Libero/hdl/IS_SIM_Paralell.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package VIDEO_CONSTANTS
+# -- Loading package My_component_pkg
+# -- Compiling entity IS_SIM_Paralell
+# -- Compiling architecture beh of IS_SIM_Paralell
+# End time: 03:51:25 on May 02,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing G:/ACTELL/EKB/EKB/Libero/simulation/presynth.is_sim_paralell(beh)
+# Loading presynth.is_sim_paralell(beh)
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q/gen_pix_str_frame_Inteface File: G:/ACTELL/EKB/EKB/Libero/hdl/gen_pix_str_frame.vhd
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q/gen_pix_str_frame_Inteface File: G:/ACTELL/EKB/EKB/Libero/hdl/gen_pix_str_frame.vhd
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/gen_pix_str_frame_IS File: G:/ACTELL/EKB/EKB/Libero/hdl/gen_pix_str_frame.vhd
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/gen_pix_str_frame_IS File: G:/ACTELL/EKB/EKB/Libero/hdl/gen_pix_str_frame.vhd
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/gen_pix_str_frame_Inteface File: G:/ACTELL/EKB/EKB/Libero/hdl/gen_pix_str_frame.vhd
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/gen_pix_str_frame_Inteface File: G:/ACTELL/EKB/EKB/Libero/hdl/gen_pix_str_frame.vhd
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'GLA' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/PLL_SIM_IS_q0/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'GLB' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/PLL_SIM_IS_q0/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'GLC' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/PLL_SIM_IS_q0/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'YB' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/PLL_SIM_IS_q0/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'YC' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/PLL_SIM_IS_q0/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'GLA' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/PLL_SIM_IS_q1/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'GLB' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/PLL_SIM_IS_q1/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'GLC' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/PLL_SIM_IS_q1/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'YB' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/PLL_SIM_IS_q1/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'YC' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/PLL_SIM_IS_q1/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'GLA' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/PLL_0_q/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'GLB' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/PLL_0_q/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'GLC' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/PLL_0_q/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'YB' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/PLL_0_q/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'YC' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/PLL_0_q/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'GLA' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/PLL_1_q/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'GLB' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/PLL_1_q/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'GLC' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/PLL_1_q/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'YB' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/PLL_1_q/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'YC' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/PLL_1_q/Core File: nofile
+# ** Warning: (vsim-8683) Uninitialized out port /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/XVS_Imx_Sim has no driver.
+# 
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/XHS_Imx_Sim has no driver.
+# 
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/DATA_IS_PAR(11 downto 0) has no driver.
+# 
+# This port will contribute value (XXX) to the signal network.
+#  ** Warning: FBSEL is unknown.
+#  Time: 0.0 Instance: tb_ekb_top.EKB_top_0.sync_gen_pix_str_frame_q.PLL_1_q.Core.P1 
+#  ** Warning: FBSEL is unknown.
+#  Time: 0.0 Instance: tb_ekb_top.EKB_top_0.sync_gen_pix_str_frame_q.PLL_0_q.Core.P1 
+#  ** Warning: FBSEL is unknown.
+#  Time: 0.0 Instance: tb_ekb_top.EKB_top_0.IMAGE_SENSOR_SIM_q.PLL_SIM_IS_q1.Core.P1 
+#  ** Warning: FBSEL is unknown.
+#  Time: 0.0 Instance: tb_ekb_top.EKB_top_0.IMAGE_SENSOR_SIM_q.PLL_SIM_IS_q0.Core.P1 
+#  ** Warning: FBSEL is unknown.
+#  Time: 0.0 Instance: tb_ekb_top.EKB_top_0.sync_gen_pix_str_frame_q.PLL_1_q.Core.P1 
+#  ** Warning: FBSEL is unknown.
+#  Time: 0.0 Instance: tb_ekb_top.EKB_top_0.sync_gen_pix_str_frame_q.PLL_0_q.Core.P1 
+#  ** Warning: FBSEL is unknown.
+#  Time: 0.0 Instance: tb_ekb_top.EKB_top_0.IMAGE_SENSOR_SIM_q.PLL_SIM_IS_q1.Core.P1 
+#  ** Warning: FBSEL is unknown.
+#  Time: 0.0 Instance: tb_ekb_top.EKB_top_0.IMAGE_SENSOR_SIM_q.PLL_SIM_IS_q0.Core.P1 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 717720 ps  Iteration: 1  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 717720 ps  Iteration: 1  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 717720 ps  Iteration: 1  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 717720 ps  Iteration: 1  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 717720 ps  Iteration: 1  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 717720 ps  Iteration: 1  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 717720 ps  Iteration: 1  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 717720 ps  Iteration: 1  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 717720 ps  Iteration: 1  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 717720 ps  Iteration: 1  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 717720 ps  Iteration: 1  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q
+add wave -position 11  sim:/tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q/data_generator_out
+vcom -2008 -explicit -work presynth G:/ACTELL/EKB/EKB/Libero/hdl/IMAGE_SENSOR_SIM.vhd
+# QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 03:54:28 on May 02,2020
+# vcom -reportprogress 300 -2008 -explicit -work presynth G:/ACTELL/EKB/EKB/Libero/hdl/IMAGE_SENSOR_SIM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package VIDEO_CONSTANTS
+# -- Loading package My_component_pkg
+# -- Compiling entity IMAGE_SENSOR_SIM
+# -- Compiling architecture beh of IMAGE_SENSOR_SIM
+# ** Error: G:/ACTELL/EKB/EKB/Libero/hdl/IMAGE_SENSOR_SIM.vhd(226): Symbol "IS_SIM_serial_DDR_q" has already been declared in this region.
+# ** Error: G:/ACTELL/EKB/EKB/Libero/hdl/IMAGE_SENSOR_SIM.vhd(237): Symbol "IS_SIM_serial_DDR_q" has already been declared in this region.
+# ** Error: G:/ACTELL/EKB/EKB/Libero/hdl/IMAGE_SENSOR_SIM.vhd(248): Symbol "IS_SIM_serial_DDR_q" has already been declared in this region.
+# ** Error: G:/ACTELL/EKB/EKB/Libero/hdl/IMAGE_SENSOR_SIM.vhd(266): VHDL Compiler exiting
+# End time: 03:54:28 on May 02,2020, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# C:/questasim64_10.4c/win64/vcom failed.
+vcom -2008 -explicit -work presynth G:/ACTELL/EKB/EKB/Libero/hdl/IMAGE_SENSOR_SIM.vhd
+# QuestaSim-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 03:54:41 on May 02,2020
+# vcom -reportprogress 300 -2008 -explicit -work presynth G:/ACTELL/EKB/EKB/Libero/hdl/IMAGE_SENSOR_SIM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package VIDEO_CONSTANTS
+# -- Loading package My_component_pkg
+# -- Compiling entity IMAGE_SENSOR_SIM
+# -- Compiling architecture beh of IMAGE_SENSOR_SIM
+# End time: 03:54:41 on May 02,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing G:/ACTELL/EKB/EKB/Libero/simulation/presynth.image_sensor_sim(beh)
+# Loading presynth.image_sensor_sim(beh)
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q/gen_pix_str_frame_Inteface File: G:/ACTELL/EKB/EKB/Libero/hdl/gen_pix_str_frame.vhd
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q/gen_pix_str_frame_Inteface File: G:/ACTELL/EKB/EKB/Libero/hdl/gen_pix_str_frame.vhd
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/gen_pix_str_frame_IS File: G:/ACTELL/EKB/EKB/Libero/hdl/gen_pix_str_frame.vhd
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/gen_pix_str_frame_IS File: G:/ACTELL/EKB/EKB/Libero/hdl/gen_pix_str_frame.vhd
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/gen_pix_str_frame_Inteface File: G:/ACTELL/EKB/EKB/Libero/hdl/gen_pix_str_frame.vhd
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/gen_pix_str_frame_Inteface File: G:/ACTELL/EKB/EKB/Libero/hdl/gen_pix_str_frame.vhd
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'GLA' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/PLL_SIM_IS_q0/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'GLB' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/PLL_SIM_IS_q0/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'GLC' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/PLL_SIM_IS_q0/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'YB' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/PLL_SIM_IS_q0/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'YC' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/PLL_SIM_IS_q0/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'GLA' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/PLL_SIM_IS_q1/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'GLB' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/PLL_SIM_IS_q1/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'GLC' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/PLL_SIM_IS_q1/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'YB' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/PLL_SIM_IS_q1/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'YC' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/PLL_SIM_IS_q1/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'GLA' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/PLL_0_q/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'GLB' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/PLL_0_q/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'GLC' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/PLL_0_q/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'YB' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/PLL_0_q/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'YC' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/PLL_0_q/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'GLA' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/PLL_1_q/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'GLB' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/PLL_1_q/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'GLC' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/PLL_1_q/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'YB' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/PLL_1_q/Core File: nofile
+# ** Warning: (vsim-3620) nofile(42826): Specify path destination port 'YC' has no drivers on it. Corresponding path delays will be ineffective.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ekb_top/EKB_top_0/sync_gen_pix_str_frame_q/PLL_1_q/Core File: nofile
+# ** Warning: (vsim-8683) Uninitialized out port /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/XVS_Imx_Sim has no driver.
+# 
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/XHS_Imx_Sim has no driver.
+# 
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/DATA_IS_PAR(11 downto 0) has no driver.
+# 
+# This port will contribute value (XXX) to the signal network.
+#  ** Warning: FBSEL is unknown.
+#  Time: 0.0 Instance: tb_ekb_top.EKB_top_0.sync_gen_pix_str_frame_q.PLL_1_q.Core.P1 
+#  ** Warning: FBSEL is unknown.
+#  Time: 0.0 Instance: tb_ekb_top.EKB_top_0.sync_gen_pix_str_frame_q.PLL_0_q.Core.P1 
+#  ** Warning: FBSEL is unknown.
+#  Time: 0.0 Instance: tb_ekb_top.EKB_top_0.IMAGE_SENSOR_SIM_q.PLL_SIM_IS_q1.Core.P1 
+#  ** Warning: FBSEL is unknown.
+#  Time: 0.0 Instance: tb_ekb_top.EKB_top_0.IMAGE_SENSOR_SIM_q.PLL_SIM_IS_q0.Core.P1 
+#  ** Warning: FBSEL is unknown.
+#  Time: 0.0 Instance: tb_ekb_top.EKB_top_0.sync_gen_pix_str_frame_q.PLL_1_q.Core.P1 
+#  ** Warning: FBSEL is unknown.
+#  Time: 0.0 Instance: tb_ekb_top.EKB_top_0.sync_gen_pix_str_frame_q.PLL_0_q.Core.P1 
+#  ** Warning: FBSEL is unknown.
+#  Time: 0.0 Instance: tb_ekb_top.EKB_top_0.IMAGE_SENSOR_SIM_q.PLL_SIM_IS_q1.Core.P1 
+#  ** Warning: FBSEL is unknown.
+#  Time: 0.0 Instance: tb_ekb_top.EKB_top_0.IMAGE_SENSOR_SIM_q.PLL_SIM_IS_q0.Core.P1 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 717720 ps  Iteration: 1  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 717720 ps  Iteration: 1  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 717720 ps  Iteration: 1  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 717720 ps  Iteration: 1  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 717720 ps  Iteration: 1  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 717720 ps  Iteration: 1  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 717720 ps  Iteration: 1  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 717720 ps  Iteration: 1  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 717720 ps  Iteration: 1  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 717720 ps  Iteration: 1  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 717720 ps  Iteration: 1  Instance: /tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/IS_SIM_Paralell_q
+add wave -position 18  sim:/tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/DATA_IS_LVDS_ch_1
+add wave -position 19  sim:/tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/DATA_IS_LVDS_ch_2
+add wave -position 20  sim:/tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/DATA_IS_LVDS_ch_3
+add wave -position 21  sim:/tb_ekb_top/EKB_top_0/IMAGE_SENSOR_SIM_q/DATA_IS_LVDS_ch_4
+# End time: 03:56:15 on May 02,2020, Elapsed time: 0:06:05
+# Errors: 8, Warnings: 125

@@ -1,0 +1,508 @@
+KEY LIBERO "11.8"
+KEY CAPTURE "11.8.3.6"
+KEY DEFAULT_IMPORT_LOC "I:\APCDD\APCDD-v1.0\aes1.0\aes_7_ram\smartgen\aes_ram"
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VHDL"
+KEY VERILOGMODE "VERILOG2001"
+KEY VHDLMODE "VHDL2008"
+KEY UseConstraintFlowTechnology "FALSE"
+KEY VendorTechnology_Family "ProASIC3L"
+KEY VendorTechnology_Die "IT14X14M4LDP"
+KEY VendorTechnology_Package "fg484"
+KEY VendorTechnology_Speed "STD"
+KEY VendorTechnology_DieVoltage "1.2"
+KEY VendorTechnology_PART_RANGE "COM"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
+KEY VendorTechnology_IO_DEFT_STD "LVCMOS33"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY ""
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE ""
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "IT14X14M4LDP"
+KEY VendorTechnology_TEMPR "COM"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.2_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
+KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
+KEY VendorTechnology_VOLTR "COM"
+KEY ProjectLocation "G:\ACTELL\EKB\EKB\Libero"
+KEY ProjectDescription ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY SimulationType "VHDL"
+KEY Vendor "Actel"
+KEY ActiveRoot "EKB_top::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST FileManager
+VALUE "<project>\designer\impl1\IMAGE_SENSOR_SIM.ide_des,ide_des"
+STATE="utd"
+TIME="1588327062"
+SIZE="192"
+ENDFILE
+VALUE "<project>\designer\impl1\tb_EKB_top.ide_des,ide_des"
+STATE="utd"
+TIME="1588327023"
+SIZE="186"
+ENDFILE
+VALUE "<project>\hdl\count_n_modul.vhd,hdl"
+STATE="utd"
+TIME="1588277704"
+SIZE="1341"
+ENDFILE
+VALUE "<project>\hdl\gen_pix_str_frame.vhd,hdl"
+STATE="utd"
+TIME="1588359648"
+SIZE="5806"
+ENDFILE
+VALUE "<project>\hdl\IMAGE_SENSOR_SIM.vhd,hdl"
+STATE="utd"
+TIME="1588380878"
+SIZE="12088"
+ENDFILE
+VALUE "<project>\hdl\IS_SIM_Paralell.vhd,hdl"
+STATE="utd"
+TIME="1588380667"
+SIZE="15695"
+ENDFILE
+VALUE "<project>\hdl\IS_SIM_serial_DDR.vhd,hdl"
+STATE="utd"
+TIME="1588375491"
+SIZE="4673"
+ENDFILE
+VALUE "<project>\hdl\my_component_pkg.vhd,hdl"
+STATE="utd"
+TIME="1588336575"
+SIZE="1913"
+ENDFILE
+VALUE "<project>\hdl\noise_gen.vhd,hdl"
+STATE="utd"
+TIME="1586915864"
+SIZE="3679"
+ENDFILE
+VALUE "<project>\hdl\parall_to_serial.vhd,hdl"
+STATE="utd"
+TIME="1588282036"
+SIZE="1080"
+ENDFILE
+VALUE "<project>\hdl\PATHERN_GENERATOR.vhd,hdl"
+STATE="utd"
+TIME="1588357761"
+SIZE="5263"
+ENDFILE
+VALUE "<project>\hdl\reset_control.vhd,hdl"
+STATE="utd"
+TIME="1588282011"
+SIZE="3205"
+ENDFILE
+VALUE "<project>\hdl\sync_gen_pix_str_frame.vhd,hdl"
+STATE="utd"
+TIME="1588359689"
+SIZE="8039"
+ENDFILE
+VALUE "<project>\hdl\top.vhd,hdl"
+STATE="utd"
+TIME="1588359747"
+SIZE="12867"
+ENDFILE
+VALUE "<project>\hdl\TRS_gen.vhd,hdl"
+STATE="utd"
+TIME="1588336505"
+SIZE="3264"
+ENDFILE
+VALUE "<project>\hdl\VIDEO_CONSTANTS.vhd,hdl"
+STATE="utd"
+TIME="1588378404"
+SIZE="11625"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1588362029"
+SIZE="1731"
+ENDFILE
+VALUE "<project>\simulation\TB_CNT_presynth_simulation.log,log"
+STATE="utd"
+TIME="1588169993"
+SIZE="5661"
+ENDFILE
+VALUE "<project>\simulation\tb_EKB_top_presynth_simulation.log,log"
+STATE="utd"
+TIME="1588380886"
+SIZE="47027"
+ENDFILE
+VALUE "<project>\smartgen\PLL_0\PLL_0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1588160658"
+SIZE="1618"
+ENDFILE
+VALUE "<project>\smartgen\PLL_0\PLL_0.gen,gen"
+STATE="utd"
+TIME="1588160656"
+SIZE="616"
+PARENT="<project>\smartgen\PLL_0\PLL_0.cxf"
+ENDFILE
+VALUE "<project>\smartgen\PLL_0\PLL_0.log,log"
+STATE="utd"
+TIME="1588160657"
+SIZE="2846"
+PARENT="<project>\smartgen\PLL_0\PLL_0.cxf"
+ENDFILE
+VALUE "<project>\smartgen\PLL_0\PLL_0.vhd,hdl"
+STATE="utd"
+TIME="1588160657"
+SIZE="7474"
+PARENT="<project>\smartgen\PLL_0\PLL_0.cxf"
+ENDFILE
+VALUE "<project>\smartgen\PLL_1\PLL_1.cxf,actgen_cxf"
+STATE="utd"
+TIME="1588165989"
+SIZE="1618"
+ENDFILE
+VALUE "<project>\smartgen\PLL_1\PLL_1.gen,gen"
+STATE="utd"
+TIME="1588165987"
+SIZE="615"
+PARENT="<project>\smartgen\PLL_1\PLL_1.cxf"
+ENDFILE
+VALUE "<project>\smartgen\PLL_1\PLL_1.log,log"
+STATE="utd"
+TIME="1588165988"
+SIZE="2839"
+PARENT="<project>\smartgen\PLL_1\PLL_1.cxf"
+ENDFILE
+VALUE "<project>\smartgen\PLL_1\PLL_1.vhd,hdl"
+STATE="utd"
+TIME="1588165988"
+SIZE="7671"
+PARENT="<project>\smartgen\PLL_1\PLL_1.cxf"
+ENDFILE
+VALUE "<project>\smartgen\PLL_SIM_IS\PLL_SIM_IS.cxf,actgen_cxf"
+STATE="utd"
+TIME="1588364098"
+SIZE="1487"
+ENDFILE
+VALUE "<project>\smartgen\PLL_SIM_IS\PLL_SIM_IS.gen,gen"
+STATE="utd"
+TIME="1588364095"
+SIZE="538"
+PARENT="<project>\smartgen\PLL_SIM_IS\PLL_SIM_IS.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\PLL_SIM_IS\PLL_SIM_IS.log,log"
+STATE="utd"
+TIME="1588364096"
+SIZE="2733"
+PARENT="<project>\smartgen\PLL_SIM_IS\PLL_SIM_IS.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\PLL_SIM_IS\PLL_SIM_IS.vhd,hdl"
+STATE="utd"
+TIME="1588364096"
+SIZE="7351"
+PARENT="<project>\smartgen\PLL_SIM_IS\PLL_SIM_IS.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\PLL_SIM_IS_1\PLL_SIM_IS_1.cxf,actgen_cxf"
+STATE="utd"
+TIME="1588369696"
+SIZE="1797"
+ENDFILE
+VALUE "<project>\smartgen\PLL_SIM_IS_1\PLL_SIM_IS_1.gen,gen"
+STATE="utd"
+TIME="1588369694"
+SIZE="715"
+PARENT="<project>\smartgen\PLL_SIM_IS_1\PLL_SIM_IS_1.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\PLL_SIM_IS_1\PLL_SIM_IS_1.log,log"
+STATE="utd"
+TIME="1588369695"
+SIZE="3004"
+PARENT="<project>\smartgen\PLL_SIM_IS_1\PLL_SIM_IS_1.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\PLL_SIM_IS_1\PLL_SIM_IS_1.vhd,hdl"
+STATE="utd"
+TIME="1588369695"
+SIZE="7654"
+PARENT="<project>\smartgen\PLL_SIM_IS_1\PLL_SIM_IS_1.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\stimulus\TB_CNT.vhd,tb_hdl"
+STATE="utd"
+TIME="1588166906"
+SIZE="890"
+ENDFILE
+VALUE "<project>\stimulus\tb_EKB_top.vhd,tb_hdl"
+STATE="utd"
+TIME="1588160033"
+SIZE="7650"
+ENDFILE
+VALUE "<project>\synthesis\EKB_top.edn,syn_edn"
+STATE="ood"
+TIME="1588359496"
+SIZE="32783"
+ENDFILE
+VALUE "<project>\synthesis\EKB_top.so,so"
+STATE="utd"
+TIME="1588359496"
+SIZE="208"
+ENDFILE
+VALUE "<project>\synthesis\EKB_top_sdc.sdc,syn_sdc"
+STATE="ood"
+TIME="1588359496"
+SIZE="310"
+ENDFILE
+VALUE "<project>\synthesis\EKB_top_syn.prj,prj"
+STATE="utd"
+TIME="1588358853"
+SIZE="2248"
+ENDFILE
+VALUE "<project>\synthesis\synwork\layer0.so,so"
+STATE="utd"
+TIME="1588358854"
+SIZE="159"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "EKB_top::work"
+FILE "<project>\hdl\top.vhd,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\tb_EKB_top.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+LIST EKB_top
+VALUE "<project>\stimulus\tb_EKB_top.vhd,tb_hdl"
+ENDLIST
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=true
+Type=max
+RunTime=1000ns
+Resolution=1ps
+VsimOpt=
+EntityName=tb_EKB_top
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=G:/ACTELL/EKB/EKB/Libero/wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=FALSE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+InstantiateInSmartDesign=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\synplify_pro.exe"
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="questa"
+FUNCTION="Simulation"
+TOOL="QuestaSim"
+LOCATION="C:\questasim64_10.4c\win64\questasim.exe"
+PARAM=" -l tb_EKB_top_presynth_simulation.log "
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="FPExpress"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="C:\Microsemi\Libero_SoC_v11.8\Designer\bin\FPExpress.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="C:\Microsemi\Libero_SoC_v11.8\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "EKB_top::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Synthesize:synplify.log
+StartPage;StartPage;0
+ACTIVEVIEW;Reports
+ENDLIST
+LIST ModuleSubBlockList
+LIST "count_n_modul::work::My_component_pkg","hdl\count_n_modul.vhd","FALSE","FALSE"
+ENDLIST
+LIST "EKB_top::work","hdl\top.vhd","FALSE","FALSE"
+SUBBLOCK "reset_control::work","hdl\reset_control.vhd","FALSE","FALSE"
+SUBBLOCK "sync_gen_pix_str_frame::work","hdl\sync_gen_pix_str_frame.vhd","FALSE","FALSE"
+SUBBLOCK "IMAGE_SENSOR_SIM::work","hdl\IMAGE_SENSOR_SIM.vhd","FALSE","FALSE"
+ENDLIST
+LIST "gen_pix_str_frame::work","hdl\gen_pix_str_frame.vhd","FALSE","FALSE"
+SUBBLOCK "count_n_modul::work::My_component_pkg","hdl\count_n_modul.vhd","FALSE","FALSE"
+ENDLIST
+LIST "IMAGE_SENSOR_SIM::work","hdl\IMAGE_SENSOR_SIM.vhd","FALSE","FALSE"
+SUBBLOCK "IS_SIM_Paralell::work","hdl\IS_SIM_Paralell.vhd","FALSE","FALSE"
+SUBBLOCK "IS_SIM_serial_DDR::work","hdl\IS_SIM_serial_DDR.vhd","FALSE","FALSE"
+SUBBLOCK "PLL_SIM_IS::work","smartgen\PLL_SIM_IS\PLL_SIM_IS.vhd","TRUE","FALSE"
+SUBBLOCK "PLL_SIM_IS_1::work","smartgen\PLL_SIM_IS_1\PLL_SIM_IS_1.vhd","TRUE","FALSE"
+ENDLIST
+LIST "IS_SIM_Paralell::work","hdl\IS_SIM_Paralell.vhd","FALSE","FALSE"
+SUBBLOCK "PATHERN_GENERATOR::work","hdl\PATHERN_GENERATOR.vhd","FALSE","FALSE"
+SUBBLOCK "gen_pix_str_frame::work","hdl\gen_pix_str_frame.vhd","FALSE","FALSE"
+SUBBLOCK "TRS_gen::work::My_component_pkg","hdl\TRS_gen.vhd","FALSE","FALSE"
+ENDLIST
+LIST "IS_SIM_serial_DDR::work","hdl\IS_SIM_serial_DDR.vhd","FALSE","FALSE"
+SUBBLOCK "count_n_modul::work::My_component_pkg","hdl\count_n_modul.vhd","FALSE","FALSE"
+SUBBLOCK "parall_to_serial::work::My_component_pkg","hdl\parall_to_serial.vhd","FALSE","FALSE"
+ENDLIST
+LIST "My_component_pkg::work","hdl\my_component_pkg.vhd","FALSE","FALSE"
+SUBBLOCK "count_n_modul::work::My_component_pkg","hdl\count_n_modul.vhd","FALSE","FALSE"
+SUBBLOCK "parall_to_serial::work::My_component_pkg","hdl\parall_to_serial.vhd","FALSE","FALSE"
+SUBBLOCK "TRS_gen::work::My_component_pkg","hdl\TRS_gen.vhd","FALSE","FALSE"
+ENDLIST
+LIST "noise_gen::work","hdl\noise_gen.vhd","FALSE","FALSE"
+ENDLIST
+LIST "parall_to_serial::work::My_component_pkg","hdl\parall_to_serial.vhd","FALSE","FALSE"
+ENDLIST
+LIST "PATHERN_GENERATOR::work","hdl\PATHERN_GENERATOR.vhd","FALSE","FALSE"
+SUBBLOCK "noise_gen::work","hdl\noise_gen.vhd","FALSE","FALSE"
+ENDLIST
+LIST "PLL_0::work","smartgen\PLL_0\PLL_0.vhd","TRUE","FALSE"
+ENDLIST
+LIST "PLL_1::work","smartgen\PLL_1\PLL_1.vhd","TRUE","FALSE"
+ENDLIST
+LIST "PLL_SIM_IS::work","smartgen\PLL_SIM_IS\PLL_SIM_IS.vhd","TRUE","FALSE"
+ENDLIST
+LIST "PLL_SIM_IS_1::work","smartgen\PLL_SIM_IS_1\PLL_SIM_IS_1.vhd","TRUE","FALSE"
+ENDLIST
+LIST "reset_control::work","hdl\reset_control.vhd","FALSE","FALSE"
+ENDLIST
+LIST "sync_gen_pix_str_frame::work","hdl\sync_gen_pix_str_frame.vhd","FALSE","FALSE"
+SUBBLOCK "PLL_0::work","smartgen\PLL_0\PLL_0.vhd","TRUE","FALSE"
+SUBBLOCK "PLL_1::work","smartgen\PLL_1\PLL_1.vhd","TRUE","FALSE"
+SUBBLOCK "gen_pix_str_frame::work","hdl\gen_pix_str_frame.vhd","FALSE","FALSE"
+ENDLIST
+LIST "TRS_gen::work::My_component_pkg","hdl\TRS_gen.vhd","FALSE","FALSE"
+ENDLIST
+LIST "VIDEO_CONSTANTS::work","hdl\VIDEO_CONSTANTS.vhd","FALSE","FALSE"
+ENDLIST
+LIST "TB_CNT::work","stimulus\TB_CNT.vhd","FALSE","TRUE"
+ENDLIST
+LIST "tb_EKB_top::work","stimulus\tb_EKB_top.vhd","FALSE","TRUE"
+SUBBLOCK "EKB_top::work","hdl\top.vhd","FALSE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+LIST "EKB_top::work"
+ACTIVETESTBENCH "tb_EKB_top::work","stimulus\tb_EKB_top.vhd","FALSE"
+ENDLIST
+ENDLIST
+LIST IOTabList
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+ENDLIST
+LIST FDCTabList
+ENDLIST

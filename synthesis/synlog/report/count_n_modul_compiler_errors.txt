@@ -1,0 +1,2 @@
+@E: CD722 :"G:\ACTELL\EKB\EKB\EKB\hdl\count_n_modul.vhd":8:11:8:11|Generic n has not been given a value
+

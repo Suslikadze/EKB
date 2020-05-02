@@ -1,0 +1,16 @@
+Project Name: EKB
+Location: G:\ACTELL\EKB\EKB\EKB
+Description: 
+Preferred HDL Type: VHDL
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : A3PE3000L-FG484
+Family         : ProASIC3L
+Die            : A3PE3000L
+Package        : 484 FBGA
+Speed          : STD
+Core Voltage   : 1.2
+Range          : COM

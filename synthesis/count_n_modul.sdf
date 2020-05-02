@@ -1,0 +1,126 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "count_n_modul")
+(DATE "123")
+(VENDOR "ProASIC3L")
+(PROGRAM "Synplify")
+(VERSION "mapact, Build 1920R")
+(DIVIDER /)
+(VOLTAGE 2.500000:2.500000:2.500000)
+(PROCESS "TYPICAL")
+(TEMPERATURE 70.000000:70.000000:70.000000)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "count_n_modul")
+  (INSTANCE)
+  (TIMINGCHECK
+
+    (PATHCONSTRAINT qint\[3\]/CLK  qint\[3\]/Q  un8_en_3/B  un8_en_3/Y  un8_en_NE_3/C  un8_en_NE_3/Y  un8_en_NE_5/C  un8_en_NE_5/Y  un8_en_NE_4_RNISU2V/B  un8_en_NE_4_RNISU2V/Y  qint_RNO\[1\]/C  qint_RNO\[1\]/Y  qint\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[3\]/CLK  qint\[3\]/Q  un8_en_3/B  un8_en_3/Y  un8_en_NE_3/C  un8_en_NE_3/Y  un8_en_NE_5/C  un8_en_NE_5/Y  un8_en_NE_4_RNISU2V/B  un8_en_NE_4_RNISU2V/Y  qint_RNO\[2\]/C  qint_RNO\[2\]/Y  qint\[2\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[3\]/CLK  qint\[3\]/Q  un8_en_3/B  un8_en_3/Y  un8_en_NE_3/C  un8_en_NE_3/Y  un8_en_NE_5/C  un8_en_NE_5/Y  un8_en_NE_4_RNISU2V/B  un8_en_NE_4_RNISU2V/Y  qint_RNO\[3\]/C  qint_RNO\[3\]/Y  qint\[3\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[3\]/CLK  qint\[3\]/Q  un8_en_3/B  un8_en_3/Y  un8_en_NE_3/C  un8_en_NE_3/Y  un8_en_NE_5/C  un8_en_NE_5/Y  un8_en_NE_4_RNISU2V/B  un8_en_NE_4_RNISU2V/Y  qint_RNO\[4\]/C  qint_RNO\[4\]/Y  qint\[4\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[3\]/CLK  qint\[3\]/Q  un8_en_3/B  un8_en_3/Y  un8_en_NE_3/C  un8_en_NE_3/Y  un8_en_NE_5/C  un8_en_NE_5/Y  un8_en_NE_4_RNISU2V/B  un8_en_NE_4_RNISU2V/Y  qint_RNO\[5\]/C  qint_RNO\[5\]/Y  qint\[5\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[3\]/CLK  qint\[3\]/Q  un8_en_3/B  un8_en_3/Y  un8_en_NE_3/C  un8_en_NE_3/Y  un8_en_NE_5/C  un8_en_NE_5/Y  un8_en_NE_4_RNISU2V/B  un8_en_NE_4_RNISU2V/Y  qint_RNO\[6\]/C  qint_RNO\[6\]/Y  qint\[6\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[3\]/CLK  qint\[3\]/Q  un8_en_3/B  un8_en_3/Y  un8_en_NE_3/C  un8_en_NE_3/Y  un8_en_NE_5/C  un8_en_NE_5/Y  un8_en_NE_4_RNISU2V/B  un8_en_NE_4_RNISU2V/Y  qint_RNO\[0\]/A  qint_RNO\[0\]/Y  qint\[0\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[1\]/CLK  qint\[1\]/Q  qint_RNI95K8\[1\]/B  qint_RNI95K8\[1\]/Y  qint_RNIF9UC\[2\]/A  qint_RNIF9UC\[2\]/Y  qint_RNIME8H\[3\]/A  qint_RNIME8H\[3\]/Y  qint_RNIUKIL\[4\]/A  qint_RNIUKIL\[4\]/Y  qint_RNI7SSP\[5\]/A  qint_RNI7SSP\[5\]/Y  qint_RNO_0\[7\]/B  qint_RNO_0\[7\]/Y  qint_RNO\[7\]/A  qint_RNO\[7\]/Y  qint\[7\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[0\]/CLK  qint\[0\]/Q  qint_RNI95K8\[1\]/A  qint_RNI95K8\[1\]/Y  qint_RNIF9UC\[2\]/A  qint_RNIF9UC\[2\]/Y  qint_RNIME8H\[3\]/A  qint_RNIME8H\[3\]/Y  qint_RNIUKIL\[4\]/A  qint_RNIUKIL\[4\]/Y  qint_RNI7SSP\[5\]/A  qint_RNI7SSP\[5\]/Y  qint_RNO_0\[7\]/B  qint_RNO_0\[7\]/Y  qint_RNO\[7\]/A  qint_RNO\[7\]/Y  qint\[7\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[6\]/CLK  qint\[6\]/Q  un8_en_6/B  un8_en_6/Y  un8_en_NE_1/C  un8_en_NE_1/Y  un8_en_NE_4/C  un8_en_NE_4/Y  un8_en_NE_4_RNISU2V/A  un8_en_NE_4_RNISU2V/Y  qint_RNO\[1\]/C  qint_RNO\[1\]/Y  qint\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[1\]/CLK  qint\[1\]/Q  qint_RNI95K8\[1\]/B  qint_RNI95K8\[1\]/Y  qint_RNIF9UC\[2\]/A  qint_RNIF9UC\[2\]/Y  qint_RNIME8H\[3\]/A  qint_RNIME8H\[3\]/Y  qint_RNIUKIL\[4\]/A  qint_RNIUKIL\[4\]/Y  qint_RNI7SSP\[5\]/A  qint_RNI7SSP\[5\]/Y  qint_RNO\[6\]/B  qint_RNO\[6\]/Y  qint\[6\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[0\]/CLK  qint\[0\]/Q  un8_en_0/B  un8_en_0/Y  un8_en_NE_5/B  un8_en_NE_5/Y  un8_en_NE_4_RNISU2V/B  un8_en_NE_4_RNISU2V/Y  qint_RNO\[1\]/C  qint_RNO\[1\]/Y  qint\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[7\]/CLK  qint\[7\]/Q  un8_en_7/B  un8_en_7/Y  un8_en_NE_4/B  un8_en_NE_4/Y  un8_en_NE_4_RNISU2V/A  un8_en_NE_4_RNISU2V/Y  qint_RNO\[1\]/C  qint_RNO\[1\]/Y  qint\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[2\]/CLK  qint\[2\]/Q  qint_RNIF9UC\[2\]/B  qint_RNIF9UC\[2\]/Y  qint_RNIME8H\[3\]/A  qint_RNIME8H\[3\]/Y  qint_RNIUKIL\[4\]/A  qint_RNIUKIL\[4\]/Y  qint_RNI7SSP\[5\]/A  qint_RNI7SSP\[5\]/Y  qint_RNO_0\[7\]/B  qint_RNO_0\[7\]/Y  qint_RNO\[7\]/A  qint_RNO\[7\]/Y  qint\[7\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[1\]/CLK  qint\[1\]/Q  un8_en_1/B  un8_en_1/Y  un8_en_NE_5/A  un8_en_NE_5/Y  un8_en_NE_4_RNISU2V/B  un8_en_NE_4_RNISU2V/Y  qint_RNO\[1\]/C  qint_RNO\[1\]/Y  qint\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[2\]/CLK  qint\[2\]/Q  un8_en_NE_3/A  un8_en_NE_3/Y  un8_en_NE_5/C  un8_en_NE_5/Y  un8_en_NE_4_RNISU2V/B  un8_en_NE_4_RNISU2V/Y  qint_RNO\[1\]/C  qint_RNO\[1\]/Y  qint\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[4\]/CLK  qint\[4\]/Q  un8_en_4/B  un8_en_4/Y  un8_en_NE_4/A  un8_en_NE_4/Y  un8_en_NE_4_RNISU2V/A  un8_en_NE_4_RNISU2V/Y  qint_RNO\[1\]/C  qint_RNO\[1\]/Y  qint\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[5\]/CLK  qint\[5\]/Q  un8_en_NE_1/A  un8_en_NE_1/Y  un8_en_NE_4/C  un8_en_NE_4/Y  un8_en_NE_4_RNISU2V/A  un8_en_NE_4_RNISU2V/Y  qint_RNO\[1\]/C  qint_RNO\[1\]/Y  qint\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[1\]/CLK  qint\[1\]/Q  qint_RNI95K8\[1\]/B  qint_RNI95K8\[1\]/Y  qint_RNIF9UC\[2\]/A  qint_RNIF9UC\[2\]/Y  qint_RNIME8H\[3\]/A  qint_RNIME8H\[3\]/Y  qint_RNIUKIL\[4\]/A  qint_RNIUKIL\[4\]/Y  qint_RNO\[5\]/B  qint_RNO\[5\]/Y  qint\[5\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[3\]/CLK  qint\[3\]/Q  qint_RNIME8H\[3\]/B  qint_RNIME8H\[3\]/Y  qint_RNIUKIL\[4\]/A  qint_RNIUKIL\[4\]/Y  qint_RNI7SSP\[5\]/A  qint_RNI7SSP\[5\]/Y  qint_RNO_0\[7\]/B  qint_RNO_0\[7\]/Y  qint_RNO\[7\]/A  qint_RNO\[7\]/Y  qint\[7\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[1\]/CLK  qint\[1\]/Q  qint_RNI95K8\[1\]/B  qint_RNI95K8\[1\]/Y  qint_RNIF9UC\[2\]/A  qint_RNIF9UC\[2\]/Y  qint_RNIME8H\[3\]/A  qint_RNIME8H\[3\]/Y  qint_RNO\[4\]/B  qint_RNO\[4\]/Y  qint\[4\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[6\]/CLK  qint\[6\]/Q  cout_RNO_10/B  cout_RNO_10/Y  cout_RNO_6/C  cout_RNO_6/Y  cout_RNO_1/A  cout_RNO_1/Y  cout_RNO/B  cout_RNO/Y  cout/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[1\]/CLK  qint\[1\]/Q  cout_RNO_9/B  cout_RNO_9/Y  cout_RNO_4/C  cout_RNO_4/Y  cout_RNO_0/B  cout_RNO_0/Y  cout_RNO/A  cout_RNO/Y  cout/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[4\]/CLK  qint\[4\]/Q  qint_RNIUKIL\[4\]/B  qint_RNIUKIL\[4\]/Y  qint_RNI7SSP\[5\]/A  qint_RNI7SSP\[5\]/Y  qint_RNO_0\[7\]/B  qint_RNO_0\[7\]/Y  qint_RNO\[7\]/A  qint_RNO\[7\]/Y  qint\[7\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[1\]/CLK  qint\[1\]/Q  qint_RNI95K8\[1\]/B  qint_RNI95K8\[1\]/Y  qint_RNIF9UC\[2\]/A  qint_RNIF9UC\[2\]/Y  qint_RNO\[3\]/B  qint_RNO\[3\]/Y  qint\[3\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[3\]/CLK  qint\[3\]/Q  cout_RNO_8/B  cout_RNO_8/Y  cout_RNO_1/C  cout_RNO_1/Y  cout_RNO/B  cout_RNO/Y  cout/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[5\]/CLK  qint\[5\]/Q  cout_RNO_6/A  cout_RNO_6/Y  cout_RNO_1/A  cout_RNO_1/Y  cout_RNO/B  cout_RNO/Y  cout/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[0\]/CLK  qint\[0\]/Q  cout_RNO_4/A  cout_RNO_4/Y  cout_RNO_0/B  cout_RNO_0/Y  cout_RNO/A  cout_RNO/Y  cout/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[4\]/CLK  qint\[4\]/Q  cout_RNO_7/B  cout_RNO_7/Y  cout_RNO_1/B  cout_RNO_1/Y  cout_RNO/B  cout_RNO/Y  cout/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[2\]/CLK  qint\[2\]/Q  cout_RNO_5/B  cout_RNO_5/Y  cout_RNO_0/C  cout_RNO_0/Y  cout_RNO/A  cout_RNO/Y  cout/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[5\]/CLK  qint\[5\]/Q  qint_RNI7SSP\[5\]/B  qint_RNI7SSP\[5\]/Y  qint_RNO_0\[7\]/B  qint_RNO_0\[7\]/Y  qint_RNO\[7\]/A  qint_RNO\[7\]/Y  qint\[7\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[7\]/CLK  qint\[7\]/Q  cout_RNO_3/A  cout_RNO_3/Y  cout_RNO_0/A  cout_RNO_0/Y  cout_RNO/A  cout_RNO/Y  cout/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[1\]/CLK  qint\[1\]/Q  qint_RNI95K8\[1\]/B  qint_RNI95K8\[1\]/Y  qint_RNO\[2\]/B  qint_RNO\[2\]/Y  qint\[2\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[6\]/CLK  qint\[6\]/Q  qint_RNO_0\[7\]/A  qint_RNO_0\[7\]/Y  qint_RNO\[7\]/A  qint_RNO\[7\]/Y  qint\[7\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[0\]/CLK  qint\[0\]/Q  qint_RNO\[1\]/B  qint_RNO\[1\]/Y  qint\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[7\]/CLK  qint\[7\]/Q  qint_RNO\[7\]/B  qint_RNO\[7\]/Y  qint\[7\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT cout/CLK  cout/Q  cout_RNO_2/A  cout_RNO_2/Y  cout_RNO/C  cout_RNO/Y  cout/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[0\]/CLK  qint\[0\]/Q  qint_RNO\[0\]/B  qint_RNO\[0\]/Y  qint\[0\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[3\]/CLK  qint\[3\]/Q  qint_RNO\[3\]/A  qint_RNO\[3\]/Y  qint\[3\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[1\]/CLK  qint\[1\]/Q  qint_RNO\[1\]/A  qint_RNO\[1\]/Y  qint\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[6\]/CLK  qint\[6\]/Q  qint_RNO\[6\]/A  qint_RNO\[6\]/Y  qint\[6\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[2\]/CLK  qint\[2\]/Q  qint_RNO\[2\]/A  qint_RNO\[2\]/Y  qint\[2\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[4\]/CLK  qint\[4\]/Q  qint_RNO\[4\]/A  qint_RNO\[4\]/Y  qint\[4\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[5\]/CLK  qint\[5\]/Q  qint_RNO\[5\]/A  qint_RNO\[5\]/Y  qint\[5\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[0\]/CLK  qint\[0\]/Q  qout\[0\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[3\]/CLK  qint\[3\]/Q  qout\[3\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[1\]/CLK  qint\[1\]/Q  qout\[1\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[6\]/CLK  qint\[6\]/Q  qout\[6\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[2\]/CLK  qint\[2\]/Q  qout\[2\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[4\]/CLK  qint\[4\]/Q  qout\[4\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[5\]/CLK  qint\[5\]/Q  qout\[5\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT qint\[7\]/CLK  qint\[7\]/Q  qout\[7\]/D  	(9.4:9.4:9.4) )
+
+    (PATHCONSTRAINT cout/CLK  cout/Q  cout_pad/D  cout_pad/PAD  	(10.0:10.0:10.0) )
+
+  )
+)
+)

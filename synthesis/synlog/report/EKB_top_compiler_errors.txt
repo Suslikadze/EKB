@@ -1,0 +1,4 @@
+@E: CD578 :"G:\ACTELL\EKB\EKB\Libero\hdl\IS_SIM_serial_DDR.vhd":87:0:87:20|Illegal redeclaration 
+@E: CD169 :"G:\ACTELL\EKB\EKB\Libero\hdl\IMAGE_SENSOR_SIM.vhd":147:0:147:9|Illegal declaration
+@E: Parse errors encountered - exiting
+
