@@ -1,7 +1,0 @@
-C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  work.EKB_top  -multisrs  G:\ACTELL\EKB\EKB\Libero\synthesis\synwork\EKB_top_comp.srs  -osyn  G:\ACTELL\EKB\EKB\Libero\synthesis\synwork\EKB_top_mult.srs  -log  G:\ACTELL\EKB\EKB\Libero\synthesis\synlog\EKB_top_multi_srs_gen.srr 
-rc:0 success:1 runtime:0
-file:G:\ACTELL\EKB\EKB\Libero\synthesis\synwork\EKB_top_comp.srs|io:i|time:1588380596|size:4859|exec:0
-file:G:\ACTELL\EKB\EKB\Libero\synthesis\synwork\EKB_top_mult.srs|io:o|time:1588380597|size:3935|exec:0
-file:G:\ACTELL\EKB\EKB\Libero\synthesis\synlog\EKB_top_multi_srs_gen.srr|io:o|time:1588380597|size:497|exec:0
-file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\syn_nfilter.exe|io:i|time:1479366458|size:3128320|exec:1
-file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1479366724|size:4208128|exec:1
