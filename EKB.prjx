@@ -42,6 +42,11 @@ VALUE="Impl1",NUM=1
 CURREV=1
 ENDLIST
 LIST FileManager
+VALUE "<project>\designer\impl1\EKB_top.ide_des,ide_des"
+STATE="utd"
+TIME="1588426503"
+SIZE="335"
+ENDFILE
 VALUE "<project>\designer\impl1\IMAGE_SENSOR_SIM.ide_des,ide_des"
 STATE="utd"
 TIME="1588327062"
@@ -245,8 +250,13 @@ STATE="utd"
 TIME="1588160033"
 SIZE="7650"
 ENDFILE
+VALUE "<project>\synthesis\count_n_modul_syn.prj,prj"
+STATE="utd"
+TIME="1588425832"
+SIZE="1732"
+ENDFILE
 VALUE "<project>\synthesis\EKB_top.edn,syn_edn"
-STATE="ood"
+STATE="utd"
 TIME="1588380598"
 SIZE="32782"
 ENDFILE
@@ -256,7 +266,7 @@ TIME="1588380598"
 SIZE="208"
 ENDFILE
 VALUE "<project>\synthesis\EKB_top_sdc.sdc,syn_sdc"
-STATE="ood"
+STATE="utd"
 TIME="1588380598"
 SIZE="310"
 ENDFILE
@@ -281,7 +291,9 @@ VALUE "<project>\stimulus\tb_EKB_top.vhd,tb_hdl"
 ENDLIST
 LIST ProjectState5.1
 LIST Impl1
+LiberoState=Post_Synthesis
 ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\EKB_top.edn,syn_edn)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -366,8 +378,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\synplify_pro.exe"
-PARAM=""
-BATCH=0
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -402,7 +414,9 @@ ENDLIST
 LIST ProjectState5.1
 LIST "EKB_top::work"
 LIST Impl1
+LiberoState=Post_Synthesis
 ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\EKB_top.edn,syn_edn)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -425,8 +439,10 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Synthesize:synplify.log
 StartPage;StartPage;0
-ACTIVEVIEW;StartPage
+ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
 LIST "count_n_modul::work::My_component_pkg","hdl\count_n_modul.vhd","FALSE","FALSE"

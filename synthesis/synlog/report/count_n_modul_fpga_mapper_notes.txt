@@ -1,8 +1,0 @@
-@N: MF248 |Running in 64-bit mode.
-@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
-@N: MO231 :"g:\actell\ekb\ekb\ekb\hdl\count_n_modul.vhd":23:0:23:1|Found counter in view:work.count_n_modul(beh) instance qint[7:0] 
-@N: MF239 :"g:\actell\ekb\ekb\ekb\hdl\count_n_modul.vhd":43:14:43:43|Found 7-bit decrementor, 'un16_en[7:1]'
-@N: MF239 :"g:\actell\ekb\ekb\ekb\hdl\count_n_modul.vhd":27:7:27:43|Found 8-bit decrementor, 'un8_en_a_4[7:0]'
-@N: FP130 |Promoting Net clk_c on CLKBUF  clk_pad 
-@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
-@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
