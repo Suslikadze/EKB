@@ -79,21 +79,25 @@ end component;
 -- PLL_SIM_IS entity declaration
 ----------------------------------------------------------------------
 component PLL_SIM_IS_1 is
-	port( POWERDOWN : in    std_logic;
-			CLKA      : in    std_logic;
-			LOCK      : out   std_logic;
-			GLA       : out   std_logic
-			);
-	end component;
-	
-	signal PLL_POWERDOWN_N	: std_logic;			
-	signal CLK_IS_pix			: std_logic;			
-	signal CLK_IS_DDR			: std_logic;			
-	signal locked_pll_0		: std_logic;
-	signal locked_pll_1		: std_logic;
-	signal MAIN_ENABLE		: std_logic;
-	signal MAIN_reset			: std_logic;
-	signal locked_pll_q		: std_logic_vector(31 downto 0);
+port( POWERDOWN : in    std_logic;
+		CLKA      : in    std_logic;
+		LOCK      : out   std_logic;
+		GLA       : out   std_logic;
+		GLB       : out   std_logic;
+		GLC       : out   std_logic
+		);
+end component;
+
+signal PLL_POWERDOWN_N	: std_logic;			
+signal CLK_IS_pix			: std_logic;			
+signal CLK_IS_DDR_0		: std_logic;			
+signal CLK_IS_DDR_1		: std_logic;			
+signal CLK_IS_DDR_2		: std_logic;			
+signal locked_pll_0		: std_logic;
+signal locked_pll_1		: std_logic;
+signal MAIN_ENABLE		: std_logic;
+signal MAIN_reset			: std_logic;
+signal locked_pll_q		: std_logic_vector(31 downto 0);
 	
 ----------------------------------------------------------------------
 
@@ -112,39 +116,43 @@ port (
 	qout_clk_out		: out std_logic_vector (bit_pix-1 downto 0 );		-- 
 	XVS_Imx_Sim			: out std_logic; 												-- синхронизация
 	XHS_Imx_Sim			: out std_logic; 												-- синхронизация
-	DATA_IS_pix			: out  std_logic_vector (bit_data_imx-1 downto 0)	-- выходной сигнал
-		);
+	DATA_IS_pix_ch_1	: out  std_logic_vector (bit_data_imx-1 downto 0);	-- выходной сигнал
+	DATA_IS_pix_ch_2	: out  std_logic_vector (bit_data_imx-1 downto 0);	-- выходной сигнал
+	DATA_IS_pix_ch_3	: out  std_logic_vector (bit_data_imx-1 downto 0);	-- выходной сигнал
+	DATA_IS_pix_ch_4	: out  std_logic_vector (bit_data_imx-1 downto 0)	-- выходной сигнал
+	);
 end component;
 
-signal qout_clk_IS		: std_logic_vector (bit_pix-1 downto 0);
-signal qout_V_IS			: std_logic_vector (bit_strok-1 downto 0);
-signal DATA_IS_pix		: std_logic_vector (bit_data_imx-1 downto 0);
---------------------------------------------------------------------------
+signal qout_clk_IS			: std_logic_vector (bit_pix-1 downto 0);
+signal qout_V_IS				: std_logic_vector (bit_strok-1 downto 0);
+signal DATA_IS_pix_ch_1		: std_logic_vector (bit_data_imx-1 downto 0);
+signal DATA_IS_pix_ch_2		: std_logic_vector (bit_data_imx-1 downto 0);
+signal DATA_IS_pix_ch_3		: std_logic_vector (bit_data_imx-1 downto 0);
+signal DATA_IS_pix_ch_4		: std_logic_vector (bit_data_imx-1 downto 0);
+----------------------------------------------------------------------
 
--- ------------------------------------------------------------------------------------
--- ------------------------------------------------------------------------------------
--- ------------------------------------------------------------------------------------
--- component IS_SIM_serial_DDR is
--- ------------------------------------модуль управления ФП---------------------------
--- port (
--- ------------------------------------входные сигналы--------------------------------
--- 	CLK_fast			: in std_logic;  								-- тактовый 
--- 	MAIN_reset			: in std_logic;  								-- MAIN_reset
--- 	MAIN_ENABLE			: in std_logic;  								-- MAIN_ENABLE
--- 	mode_IMAGE_SENSOR	: in std_logic_vector (7 downto 0):=x"00";		-- изменение режимов
--- 	DATA_IMX_OUT		: in std_logic_vector (bit_data_CSI-1 downto 0);		-- выходной сигнал
 
--- ------------------------------------выходные сигналы--------------------------------
--- 	IMX_DDR_VIDEO		: out std_logic; 								-- синхронизация
--- 	IMX_DDR_CLK_4		: out std_logic; 								-- синхронизация
--- 	IMX_DDR_CLK			: out std_logic 								-- синхронизация
--- 		);
--- end component;
--- ------------------------------------------------------------------------------------
-
+----------------------------------------------------------------------
+-- модуль генерации видеосигнала от фотоприемника после сериализатора
+----------------------------------------------------------------------
+component IS_SIM_serial_DDR is
+generic  (bit_data	: integer);
+port (
+		--входные сигналы--	
+	CLK_fast				: in std_logic;  												-- тактовый 
+	MAIN_reset			: in std_logic;  												-- MAIN_reset
+	MAIN_ENABLE			: in std_logic;  												-- MAIN_ENABLE
+	DATA_IMX_OUT		: in std_logic_vector (bit_data_imx-1 downto 0);	-- входной сигнал
+		--выходные сигналы--	
+	IMX_DDR_VIDEO		: out std_logic												-- выходной сигнал
+		);
+end component;
+------------------------------------------------------------------------------------
 
 begin
-
+----------------------------------------------------------------------
+-- модули PLL для фомирования данных от фотоприемника
+----------------------------------------------------------------------
 PLL_POWERDOWN_N	<=	'1';
 PLL_SIM_IS_q0: PLL_SIM_IS                   
 port map (
@@ -161,10 +169,14 @@ port map (
 	POWERDOWN	=> PLL_POWERDOWN_N,
 	CLKA			=> CLK,				--74.25 МГц
 	-- Outputs 
-	GLA			=> CLK_IS_DDR, 	--206.25 МГц	// в режиме LVDS 4 ch 12 bit
+	GLA			=> CLK_IS_DDR_0, 	--206.25 МГц	// в режиме LVDS 4 ch 12 bit
+	GLB			=> CLK_IS_DDR_1, 	--206.25 МГц	// 180 phase shift
+	GLC			=> CLK_IS_DDR_2, 	--206.25 МГц	// 90 phase shift
 	LOCK			=> locked_pll_1
 );	
-
+----------------------------------------------------------------------
+-- задержка reset для корректного сброса 
+----------------------------------------------------------------------
 process (CLK)
 begin
 if  rising_edge(CLK) then
@@ -177,38 +189,78 @@ if  rising_edge(CLK) then
 end if;
 end process;
 
-------------------------------------симулятор паралелльных данных----------------------------------------------------
+----------------------------------------------------------------------
+-- модуль генерации видеосигнала от фотоприемника в паралелльном коде
+----------------------------------------------------------------------
 IS_SIM_Paralell_q: IS_SIM_Paralell                   
 port map (
-						------входные сигналы-----------
-			CLK					=>	CLK_IS_pix,			
-			MAIN_reset			=>	MAIN_reset ,
-			MAIN_ENABLE			=>	MAIN_ENABLE  ,		
-			mode_generator		=>	mode_generator,
-						------выходные сигналы-----------
-			-- qout_V_out		=>	ena_clk_x2_in,
-			-- qout_clk_out	=>	ena_clk_x4_in,
-			-- XVS_Imx_Sim		=>	ena_clk_x8_in,
-			-- XHS_Imx_Sim		=>	ena_clk_x16_in,
-			DATA_IS_pix		=>	DATA_IS_PAR
-			);	
+				------входные сигналы-----------
+	CLK					=>	CLK_IS_pix,			
+	MAIN_reset			=>	MAIN_reset ,
+	MAIN_ENABLE			=>	MAIN_ENABLE  ,		
+	mode_generator		=>	mode_generator,
+				------выходные сигналы-----------
+	-- qout_V_out		=>	ena_clk_x2_in,
+	-- qout_clk_out	=>	ena_clk_x4_in,
+	-- XVS_Imx_Sim		=>	ena_clk_x8_in,
+	-- XHS_Imx_Sim		=>	ena_clk_x16_in,
+	DATA_IS_pix_ch_1	=> DATA_IS_pix_ch_1,
+	DATA_IS_pix_ch_2	=> DATA_IS_pix_ch_2,
+	DATA_IS_pix_ch_3	=> DATA_IS_pix_ch_3,
+	DATA_IS_pix_ch_4	=> DATA_IS_pix_ch_4
+	);	
+----------------------------------------------------------------------
+-- модуль генерации видеосигнала от фотоприемника после сериализатора
+----------------------------------------------------------------------
+IS_SIM_serial_DDR_q1: IS_SIM_serial_DDR                   
+generic map (bit_data_imx) 
+port map (
+				------входные сигналы-----------
+	CLK_fast				=>	CLK_IS_DDR_0,			
+	MAIN_reset			=>	MAIN_reset ,
+	MAIN_ENABLE			=>	MAIN_ENABLE  ,		
+	DATA_IMX_OUT		=>	DATA_IS_pix_ch_1,
+				------выходные сигналы-----------
+	IMX_DDR_VIDEO		=>	DATA_IS_LVDS_ch_1
+	);	
+IS_SIM_serial_DDR_q2: IS_SIM_serial_DDR                   
+generic map (bit_data_imx) 
+port map (
+				------входные сигналы-----------
+	CLK_fast				=>	CLK_IS_DDR_0,			
+	MAIN_reset			=>	MAIN_reset ,
+	MAIN_ENABLE			=>	MAIN_ENABLE  ,		
+	DATA_IMX_OUT		=>	DATA_IS_pix_ch_2,
+				------выходные сигналы-----------
+	IMX_DDR_VIDEO		=>	DATA_IS_LVDS_ch_2
+	);	
+IS_SIM_serial_DDR_q3: IS_SIM_serial_DDR                   
+generic map (bit_data_imx) 
+port map (
+				------входные сигналы-----------
+	CLK_fast				=>	CLK_IS_DDR_0,			
+	MAIN_reset			=>	MAIN_reset ,
+	MAIN_ENABLE			=>	MAIN_ENABLE  ,		
+	DATA_IMX_OUT		=>	DATA_IS_pix_ch_3,
+				------выходные сигналы-----------
+	IMX_DDR_VIDEO		=>	DATA_IS_LVDS_ch_3
+	);	
+IS_SIM_serial_DDR_q4: IS_SIM_serial_DDR                   
+generic map (bit_data_imx) 
+port map (
+				------входные сигналы-----------
+	CLK_fast				=>	CLK_IS_DDR_0,			
+	MAIN_reset			=>	MAIN_reset ,
+	MAIN_ENABLE			=>	MAIN_ENABLE  ,		
+	DATA_IMX_OUT		=>	DATA_IS_pix_ch_3,
+				------выходные сигналы-----------
+	IMX_DDR_VIDEO		=>	DATA_IS_LVDS_ch_4
+	);	
+
+	
 
 
--- ------------------------------------симулятор паралелльных данных-----------------
--- IS_SIM_serial_DDR_q: IS_SIM_serial_DDR                   
--- port map (
--- 						------входные сигналы-----------
--- 			CLK_fast			=>	Sensor_PLL_1_CLK_1,			
--- 			MAIN_reset			=>	MAIN_reset ,
--- 			MAIN_ENABLE			=>	MAIN_ENABLE  ,		
--- 			mode_IMAGE_SENSOR	=> 	mode_IMAGE_SENSOR,
--- 			DATA_IMX_OUT		=>	DATA_bion_sync,
--- 						------выходные сигналы-----------
--- 			IMX_DDR_VIDEO		=>	IMX_DDR_VIDEO,
--- 			-- IMX_DDR_CLK_4		=>	IMX_DDR_CLK_4,
--- 			IMX_DDR_CLK			=>	IMX_DDR_CLK
--- 			);	
 
--- DATA_IS_PAR	<=DATA_IMX_OUT_in;
--- IMX_DDR_CLK_5	<=Sensor_PLL_1_CLK_2;
+CLK_DDR	<=	CLK_IS_DDR_2;
+
 end ;
