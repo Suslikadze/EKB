@@ -31,7 +31,7 @@ KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
 KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
 KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
 KEY VendorTechnology_VOLTR "COM"
-KEY ProjectLocation "G:\ACTELL\EKB\EKB\Libero"
+KEY ProjectLocation "G:\ACTELL\EKB\EKB\Libero1\Libero"
 KEY ProjectDescription ""
 KEY Pa4PeripheralNewSeq "GOOD"
 KEY SimulationType "VHDL"
@@ -124,8 +124,8 @@ SIZE="11625"
 ENDFILE
 VALUE "<project>\simulation\run.do,do"
 STATE="utd"
-TIME="1588362029"
-SIZE="1731"
+TIME="1588380602"
+SIZE="1997"
 ENDFILE
 VALUE "<project>\simulation\TB_CNT_presynth_simulation.log,log"
 STATE="utd"
@@ -134,8 +134,8 @@ SIZE="5661"
 ENDFILE
 VALUE "<project>\simulation\tb_EKB_top_presynth_simulation.log,log"
 STATE="utd"
-TIME="1588380886"
-SIZE="47027"
+TIME="1588380977"
+SIZE="50378"
 ENDFILE
 VALUE "<project>\smartgen\PLL_0\PLL_0.cxf,actgen_cxf"
 STATE="utd"
@@ -247,27 +247,27 @@ SIZE="7650"
 ENDFILE
 VALUE "<project>\synthesis\EKB_top.edn,syn_edn"
 STATE="ood"
-TIME="1588359496"
-SIZE="32783"
+TIME="1588380598"
+SIZE="32782"
 ENDFILE
 VALUE "<project>\synthesis\EKB_top.so,so"
 STATE="utd"
-TIME="1588359496"
+TIME="1588380598"
 SIZE="208"
 ENDFILE
 VALUE "<project>\synthesis\EKB_top_sdc.sdc,syn_sdc"
 STATE="ood"
-TIME="1588359496"
+TIME="1588380598"
 SIZE="310"
 ENDFILE
 VALUE "<project>\synthesis\EKB_top_syn.prj,prj"
 STATE="utd"
-TIME="1588358853"
-SIZE="2248"
+TIME="1588380598"
+SIZE="3007"
 ENDFILE
 VALUE "<project>\synthesis\synwork\layer0.so,so"
 STATE="utd"
-TIME="1588358854"
+TIME="1588374423"
 SIZE="159"
 ENDFILE
 ENDLIST
@@ -366,8 +366,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\synplify_pro.exe"
-PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
-BATCH=1
+PARAM=""
+BATCH=0
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -425,18 +425,16 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-Reports;Reports;0
-ReportsCurrentItem;Synthesize:synplify.log
 StartPage;StartPage;0
-ACTIVEVIEW;Reports
+ACTIVEVIEW;StartPage
 ENDLIST
 LIST ModuleSubBlockList
 LIST "count_n_modul::work::My_component_pkg","hdl\count_n_modul.vhd","FALSE","FALSE"
 ENDLIST
 LIST "EKB_top::work","hdl\top.vhd","FALSE","FALSE"
+SUBBLOCK "IMAGE_SENSOR_SIM::work","hdl\IMAGE_SENSOR_SIM.vhd","FALSE","FALSE"
 SUBBLOCK "reset_control::work","hdl\reset_control.vhd","FALSE","FALSE"
 SUBBLOCK "sync_gen_pix_str_frame::work","hdl\sync_gen_pix_str_frame.vhd","FALSE","FALSE"
-SUBBLOCK "IMAGE_SENSOR_SIM::work","hdl\IMAGE_SENSOR_SIM.vhd","FALSE","FALSE"
 ENDLIST
 LIST "gen_pix_str_frame::work","hdl\gen_pix_str_frame.vhd","FALSE","FALSE"
 SUBBLOCK "count_n_modul::work::My_component_pkg","hdl\count_n_modul.vhd","FALSE","FALSE"
@@ -450,7 +448,7 @@ ENDLIST
 LIST "IS_SIM_Paralell::work","hdl\IS_SIM_Paralell.vhd","FALSE","FALSE"
 SUBBLOCK "PATHERN_GENERATOR::work","hdl\PATHERN_GENERATOR.vhd","FALSE","FALSE"
 SUBBLOCK "gen_pix_str_frame::work","hdl\gen_pix_str_frame.vhd","FALSE","FALSE"
-SUBBLOCK "TRS_gen::work::My_component_pkg","hdl\TRS_gen.vhd","FALSE","FALSE"
+SUBBLOCK "trs_gen::work::My_component_pkg","hdl\TRS_gen.vhd","FALSE","FALSE"
 ENDLIST
 LIST "IS_SIM_serial_DDR::work","hdl\IS_SIM_serial_DDR.vhd","FALSE","FALSE"
 SUBBLOCK "count_n_modul::work::My_component_pkg","hdl\count_n_modul.vhd","FALSE","FALSE"
@@ -459,7 +457,7 @@ ENDLIST
 LIST "My_component_pkg::work","hdl\my_component_pkg.vhd","FALSE","FALSE"
 SUBBLOCK "count_n_modul::work::My_component_pkg","hdl\count_n_modul.vhd","FALSE","FALSE"
 SUBBLOCK "parall_to_serial::work::My_component_pkg","hdl\parall_to_serial.vhd","FALSE","FALSE"
-SUBBLOCK "TRS_gen::work::My_component_pkg","hdl\TRS_gen.vhd","FALSE","FALSE"
+SUBBLOCK "trs_gen::work::My_component_pkg","hdl\TRS_gen.vhd","FALSE","FALSE"
 ENDLIST
 LIST "noise_gen::work","hdl\noise_gen.vhd","FALSE","FALSE"
 ENDLIST
@@ -483,7 +481,7 @@ SUBBLOCK "PLL_0::work","smartgen\PLL_0\PLL_0.vhd","TRUE","FALSE"
 SUBBLOCK "PLL_1::work","smartgen\PLL_1\PLL_1.vhd","TRUE","FALSE"
 SUBBLOCK "gen_pix_str_frame::work","hdl\gen_pix_str_frame.vhd","FALSE","FALSE"
 ENDLIST
-LIST "TRS_gen::work::My_component_pkg","hdl\TRS_gen.vhd","FALSE","FALSE"
+LIST "trs_gen::work::My_component_pkg","hdl\TRS_gen.vhd","FALSE","FALSE"
 ENDLIST
 LIST "VIDEO_CONSTANTS::work","hdl\VIDEO_CONSTANTS.vhd","FALSE","FALSE"
 ENDLIST

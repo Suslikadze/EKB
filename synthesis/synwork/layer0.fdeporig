@@ -1,5 +1,5 @@
 #defaultlanguage:vhdl
-#OPTIONS:"|-layerid|0|-orig_srs|G:\\ACTELL\\EKB\\EKB\\Libero\\synthesis\\synwork\\EKB_top_comp.srs|-top|work.EKB_top|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#OPTIONS:"|-layerid|0|-orig_srs|G:\\ACTELL\\EKB\\EKB\\Libero1\\Libero\\synthesis\\synwork\\EKB_top_comp.srs|-top|work.EKB_top|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\bin64\\c_vhdl.exe":1479971492
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\location.map":1478797188
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\std.vhd":1487934586
@@ -11,96 +11,96 @@
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\arith.vhd":1487934586
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd2008\\unsigned.vhd":1487934586
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.8\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1487934454
-#CUR:"G:\\ACTELL\\EKB\\EKB\\Libero\\hdl\\my_component_pkg.vhd":1588336575
-#CUR:"G:\\ACTELL\\EKB\\EKB\\Libero\\hdl\\VIDEO_CONSTANTS.vhd":1588378404
-#CUR:"G:\\ACTELL\\EKB\\EKB\\Libero\\hdl\\reset_control.vhd":1588282011
-#CUR:"G:\\ACTELL\\EKB\\EKB\\Libero\\smartgen\\PLL_0\\PLL_0.vhd":1588160657
-#CUR:"G:\\ACTELL\\EKB\\EKB\\Libero\\smartgen\\PLL_1\\PLL_1.vhd":1588165988
-#CUR:"G:\\ACTELL\\EKB\\EKB\\Libero\\hdl\\count_n_modul.vhd":1588277704
-#CUR:"G:\\ACTELL\\EKB\\EKB\\Libero\\hdl\\gen_pix_str_frame.vhd":1588359648
-#CUR:"G:\\ACTELL\\EKB\\EKB\\Libero\\hdl\\sync_gen_pix_str_frame.vhd":1588359689
-#CUR:"G:\\ACTELL\\EKB\\EKB\\Libero\\hdl\\parall_to_serial.vhd":1588282036
-#CUR:"G:\\ACTELL\\EKB\\EKB\\Libero\\hdl\\IS_SIM_serial_DDR.vhd":1588375491
-#CUR:"G:\\ACTELL\\EKB\\EKB\\Libero\\smartgen\\PLL_SIM_IS\\PLL_SIM_IS.vhd":1588364096
-#CUR:"G:\\ACTELL\\EKB\\EKB\\Libero\\smartgen\\PLL_SIM_IS_1\\PLL_SIM_IS_1.vhd":1588369695
-#CUR:"G:\\ACTELL\\EKB\\EKB\\Libero\\hdl\\noise_gen.vhd":1586915864
-#CUR:"G:\\ACTELL\\EKB\\EKB\\Libero\\hdl\\PATHERN_GENERATOR.vhd":1588357761
-#CUR:"G:\\ACTELL\\EKB\\EKB\\Libero\\hdl\\TRS_gen.vhd":1588336505
-#CUR:"G:\\ACTELL\\EKB\\EKB\\Libero\\hdl\\IS_SIM_Paralell.vhd":1588380573
-#CUR:"G:\\ACTELL\\EKB\\EKB\\Libero\\hdl\\IMAGE_SENSOR_SIM.vhd":1588378241
-#CUR:"G:\\ACTELL\\EKB\\EKB\\Libero\\hdl\\top.vhd":1588359747
-0 "G:\ACTELL\EKB\EKB\Libero\hdl\my_component_pkg.vhd" vhdl
-1 "G:\ACTELL\EKB\EKB\Libero\hdl\VIDEO_CONSTANTS.vhd" vhdl
-2 "G:\ACTELL\EKB\EKB\Libero\hdl\reset_control.vhd" vhdl
-3 "G:\ACTELL\EKB\EKB\Libero\smartgen\PLL_0\PLL_0.vhd" vhdl
-4 "G:\ACTELL\EKB\EKB\Libero\smartgen\PLL_1\PLL_1.vhd" vhdl
-5 "G:\ACTELL\EKB\EKB\Libero\hdl\count_n_modul.vhd" vhdl
-6 "G:\ACTELL\EKB\EKB\Libero\hdl\gen_pix_str_frame.vhd" vhdl
-7 "G:\ACTELL\EKB\EKB\Libero\hdl\sync_gen_pix_str_frame.vhd" vhdl
-8 "G:\ACTELL\EKB\EKB\Libero\hdl\parall_to_serial.vhd" vhdl
-9 "G:\ACTELL\EKB\EKB\Libero\hdl\IS_SIM_serial_DDR.vhd" vhdl
-10 "G:\ACTELL\EKB\EKB\Libero\smartgen\PLL_SIM_IS\PLL_SIM_IS.vhd" vhdl
-11 "G:\ACTELL\EKB\EKB\Libero\smartgen\PLL_SIM_IS_1\PLL_SIM_IS_1.vhd" vhdl
-12 "G:\ACTELL\EKB\EKB\Libero\hdl\noise_gen.vhd" vhdl
-13 "G:\ACTELL\EKB\EKB\Libero\hdl\PATHERN_GENERATOR.vhd" vhdl
-14 "G:\ACTELL\EKB\EKB\Libero\hdl\TRS_gen.vhd" vhdl
-15 "G:\ACTELL\EKB\EKB\Libero\hdl\IS_SIM_Paralell.vhd" vhdl
-16 "G:\ACTELL\EKB\EKB\Libero\hdl\IMAGE_SENSOR_SIM.vhd" vhdl
-17 "G:\ACTELL\EKB\EKB\Libero\hdl\top.vhd" vhdl
+#CUR:"G:\\ACTELL\\EKB\\EKB\\Libero1\\Libero\\hdl\\noise_gen.vhd":1586915864
+#CUR:"G:\\ACTELL\\EKB\\EKB\\Libero1\\Libero\\hdl\\my_component_pkg.vhd":1588336575
+#CUR:"G:\\ACTELL\\EKB\\EKB\\Libero1\\Libero\\hdl\\VIDEO_CONSTANTS.vhd":1588378404
+#CUR:"G:\\ACTELL\\EKB\\EKB\\Libero1\\Libero\\hdl\\PATHERN_GENERATOR.vhd":1588357761
+#CUR:"G:\\ACTELL\\EKB\\EKB\\Libero1\\Libero\\hdl\\count_n_modul.vhd":1588277704
+#CUR:"G:\\ACTELL\\EKB\\EKB\\Libero1\\Libero\\hdl\\gen_pix_str_frame.vhd":1588359648
+#CUR:"G:\\ACTELL\\EKB\\EKB\\Libero1\\Libero\\hdl\\TRS_gen.vhd":1588336505
+#CUR:"G:\\ACTELL\\EKB\\EKB\\Libero1\\Libero\\hdl\\IS_SIM_Paralell.vhd":1588380667
+#CUR:"G:\\ACTELL\\EKB\\EKB\\Libero1\\Libero\\hdl\\parall_to_serial.vhd":1588282036
+#CUR:"G:\\ACTELL\\EKB\\EKB\\Libero1\\Libero\\hdl\\IS_SIM_serial_DDR.vhd":1588375491
+#CUR:"G:\\ACTELL\\EKB\\EKB\\Libero1\\Libero\\smartgen\\PLL_SIM_IS\\PLL_SIM_IS.vhd":1588364096
+#CUR:"G:\\ACTELL\\EKB\\EKB\\Libero1\\Libero\\smartgen\\PLL_SIM_IS_1\\PLL_SIM_IS_1.vhd":1588369695
+#CUR:"G:\\ACTELL\\EKB\\EKB\\Libero1\\Libero\\hdl\\IMAGE_SENSOR_SIM.vhd":1588380878
+#CUR:"G:\\ACTELL\\EKB\\EKB\\Libero1\\Libero\\hdl\\reset_control.vhd":1588282011
+#CUR:"G:\\ACTELL\\EKB\\EKB\\Libero1\\Libero\\smartgen\\PLL_0\\PLL_0.vhd":1588160657
+#CUR:"G:\\ACTELL\\EKB\\EKB\\Libero1\\Libero\\smartgen\\PLL_1\\PLL_1.vhd":1588165988
+#CUR:"G:\\ACTELL\\EKB\\EKB\\Libero1\\Libero\\hdl\\sync_gen_pix_str_frame.vhd":1588359689
+#CUR:"G:\\ACTELL\\EKB\\EKB\\Libero1\\Libero\\hdl\\top.vhd":1588359747
+0 "G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\noise_gen.vhd" vhdl
+1 "G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\my_component_pkg.vhd" vhdl
+2 "G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\VIDEO_CONSTANTS.vhd" vhdl
+3 "G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\PATHERN_GENERATOR.vhd" vhdl
+4 "G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\count_n_modul.vhd" vhdl
+5 "G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\gen_pix_str_frame.vhd" vhdl
+6 "G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\TRS_gen.vhd" vhdl
+7 "G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\IS_SIM_Paralell.vhd" vhdl
+8 "G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\parall_to_serial.vhd" vhdl
+9 "G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\IS_SIM_serial_DDR.vhd" vhdl
+10 "G:\ACTELL\EKB\EKB\Libero1\Libero\smartgen\PLL_SIM_IS\PLL_SIM_IS.vhd" vhdl
+11 "G:\ACTELL\EKB\EKB\Libero1\Libero\smartgen\PLL_SIM_IS_1\PLL_SIM_IS_1.vhd" vhdl
+12 "G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\IMAGE_SENSOR_SIM.vhd" vhdl
+13 "G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\reset_control.vhd" vhdl
+14 "G:\ACTELL\EKB\EKB\Libero1\Libero\smartgen\PLL_0\PLL_0.vhd" vhdl
+15 "G:\ACTELL\EKB\EKB\Libero1\Libero\smartgen\PLL_1\PLL_1.vhd" vhdl
+16 "G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\sync_gen_pix_str_frame.vhd" vhdl
+17 "G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\top.vhd" vhdl
 
 # Dependency Lists (Uses list)
 0 -1
 1 -1
-2 1 0 
-3 -1
+2 -1
+3 0 2 1 
 4 -1
-5 -1
-6 5 1 0 
-7 3 4 6 1 0 
-8 0 
-9 5 8 1 0 
+5 4 2 1 
+6 2 1 
+7 5 3 6 2 1 
+8 1 
+9 4 8 2 1 
 10 -1
 11 -1
-12 -1
-13 12 1 0 
-14 1 0 
-15 6 13 14 1 0 
-16 10 11 15 9 1 0 
-17 16 2 7 1 0 
+12 10 11 7 9 2 1 
+13 2 1 
+14 -1
+15 -1
+16 14 15 5 2 1 
+17 12 13 16 2 1 
 
 # Dependency Lists (Users Of)
-0 17 16 15 14 13 9 8 7 6 2 
-1 17 16 15 14 13 9 7 6 2 
-2 17 
+0 3 
+1 17 16 13 12 9 8 7 6 5 3 
+2 17 16 13 12 9 7 6 5 3 
 3 7 
-4 7 
-5 9 6 
-6 15 7 
-7 17 
+4 9 5 
+5 16 7 
+6 7 
+7 12 
 8 9 
-9 16 
-10 16 
-11 16 
-12 13 
-13 15 
-14 15 
+9 12 
+10 12 
+11 12 
+12 17 
+13 17 
+14 16 
 15 16 
 16 17 
 17 -1
 
 # Design Unit to File Association
-arch work reset_control beh 2
-module work reset_control 2
-arch work pll_0 def_arch 3
-module work pll_0 3
-arch work pll_1 def_arch 4
-module work pll_1 4
-arch work count_n_modul beh 5
-module work count_n_modul 5
-arch work gen_pix_str_frame beh 6
-module work gen_pix_str_frame 6
-arch work sync_gen_pix_str_frame beh 7
-module work sync_gen_pix_str_frame 7
+arch work noise_gen beh 0
+module work noise_gen 0
+arch work pathern_generator beh 3
+module work pathern_generator 3
+arch work count_n_modul beh 4
+module work count_n_modul 4
+arch work gen_pix_str_frame beh 5
+module work gen_pix_str_frame 5
+arch work trs_gen beh 6
+module work trs_gen 6
+arch work is_sim_paralell beh 7
+module work is_sim_paralell 7
 arch work parall_to_serial piso_arc 8
 module work parall_to_serial 8
 arch work is_sim_serial_ddr beh 9
@@ -109,15 +109,15 @@ arch work pll_sim_is def_arch 10
 module work pll_sim_is 10
 arch work pll_sim_is_1 def_arch 11
 module work pll_sim_is_1 11
-arch work noise_gen beh 12
-module work noise_gen 12
-arch work pathern_generator beh 13
-module work pathern_generator 13
-arch work trs_gen beh 14
-module work trs_gen 14
-arch work is_sim_paralell beh 15
-module work is_sim_paralell 15
-arch work image_sensor_sim beh 16
-module work image_sensor_sim 16
+arch work image_sensor_sim beh 12
+module work image_sensor_sim 12
+arch work reset_control beh 13
+module work reset_control 13
+arch work pll_0 def_arch 14
+module work pll_0 14
+arch work pll_1 def_arch 15
+module work pll_1 15
+arch work sync_gen_pix_str_frame beh 16
+module work sync_gen_pix_str_frame 16
 arch work ekb_top rtl 17
 module work ekb_top 17

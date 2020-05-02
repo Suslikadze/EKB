@@ -1,11 +1,11 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09M-2
-#--  Project file G:\ACTELL\EKB\EKB\Libero\synthesis\count_n_modul_syn.prj
+#--  Project file G:\ACTELL\EKB\EKB\Libero1\Libero1\Libero\synthesis\count_n_modul_syn.prj
 #--  Written on Wed Apr 29 17:10:52 2020
 
 
 #project files
-add_file -vhdl -lib work "G:/ACTELL/EKB/EKB/Libero/hdl/count_n_modul.vhd"
+add_file -vhdl -lib work "G:/ACTELL/EKB/EKB/Libero1/Libero1/Libero/hdl/count_n_modul.vhd"
 
 
 

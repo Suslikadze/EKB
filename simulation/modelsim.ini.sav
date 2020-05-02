@@ -1,6 +1,6 @@
 [Library]
 others = $MODEL_TECH/../modelsim.ini
-proasic3l = C:/Microsemi/Libero_SoC_v11.8/Designer/lib/modelsim/precompiled/vhdl/proasic3l
+proasic3l = C:/Microsemi/Libero_SoC_v11.8/Designer/lib/questa/precompiled/vlog/proasic3l
 presynth = presynth
 syncad_vhdl_lib = C:\Microsemi\Libero_SoC_v11.8\Designer/lib/actel/syncad_vhdl_lib
 

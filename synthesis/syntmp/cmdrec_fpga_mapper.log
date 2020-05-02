@@ -1,15 +1,15 @@
-C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_proasic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  G:\ACTELL\EKB\EKB\Libero\synthesis   -part A3PE3000L  -package FBGA484  -grade STD    -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile G:\ACTELL\EKB\EKB\Libero\synthesis\synlog\report\EKB_top_fpga_mapper.xml  -top_level_module  work.EKB_top  -licensetype  synplifypro_actel  -flow mapping  -mp  4  -prjfile  G:\ACTELL\EKB\EKB\Libero\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  G:\ACTELL\EKB\EKB\Libero\synthesis\EKB_top.edn   -freq 100.000   G:\ACTELL\EKB\EKB\Libero\synthesis\synwork\EKB_top_prem.srd  -sap  G:\ACTELL\EKB\EKB\Libero\synthesis\EKB_top.sap  -otap  G:\ACTELL\EKB\EKB\Libero\synthesis\EKB_top.tap  -omap  G:\ACTELL\EKB\EKB\Libero\synthesis\EKB_top.map  -devicelib  C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\proasic3l.v  -sap  G:\ACTELL\EKB\EKB\Libero\synthesis\EKB_top.sap  -ologparam  G:\ACTELL\EKB\EKB\Libero\synthesis\syntmp\EKB_top.plg  -osyn  G:\ACTELL\EKB\EKB\Libero\synthesis\EKB_top.srm  -prjdir  G:\ACTELL\EKB\EKB\Libero\synthesis\  -prjname  EKB_top_syn  -log  G:\ACTELL\EKB\EKB\Libero\synthesis\synlog\EKB_top_fpga_mapper.srr 
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_proasic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  G:\ACTELL\EKB\EKB\Libero1\Libero\synthesis   -part A3PE3000L  -package FBGA484  -grade STD    -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile G:\ACTELL\EKB\EKB\Libero1\Libero\synthesis\synlog\report\EKB_top_fpga_mapper.xml  -top_level_module  work.EKB_top  -licensetype  synplifypro_actel  -flow mapping  -mp  4  -prjfile  G:\ACTELL\EKB\EKB\Libero1\Libero\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  G:\ACTELL\EKB\EKB\Libero1\Libero\synthesis\EKB_top.edn   -freq 100.000   G:\ACTELL\EKB\EKB\Libero1\Libero\synthesis\synwork\EKB_top_prem.srd  -sap  G:\ACTELL\EKB\EKB\Libero1\Libero\synthesis\EKB_top.sap  -otap  G:\ACTELL\EKB\EKB\Libero1\Libero\synthesis\EKB_top.tap  -omap  G:\ACTELL\EKB\EKB\Libero1\Libero\synthesis\EKB_top.map  -devicelib  C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\proasic3l.v  -sap  G:\ACTELL\EKB\EKB\Libero1\Libero\synthesis\EKB_top.sap  -ologparam  G:\ACTELL\EKB\EKB\Libero1\Libero\synthesis\syntmp\EKB_top.plg  -osyn  G:\ACTELL\EKB\EKB\Libero1\Libero\synthesis\EKB_top.srm  -prjdir  G:\ACTELL\EKB\EKB\Libero1\Libero\synthesis\  -prjname  EKB_top_syn  -log  G:\ACTELL\EKB\EKB\Libero1\Libero\synthesis\synlog\EKB_top_fpga_mapper.srr 
 rc:0 success:1 runtime:1
-file:G:\ACTELL\EKB\EKB\Libero\synthesis\scratchproject.prs|io:o|time:1588378344|size:3024|exec:0
-file:G:\ACTELL\EKB\EKB\Libero\synthesis\EKB_top.edn|io:o|time:1588380598|size:32782|exec:0
-file:G:\ACTELL\EKB\EKB\Libero\synthesis\synwork\EKB_top_prem.srd|io:i|time:1588380597|size:4123|exec:0
-file:G:\ACTELL\EKB\EKB\Libero\synthesis\EKB_top.sap|io:o|time:1588380597|size:113|exec:0
-file:G:\ACTELL\EKB\EKB\Libero\synthesis\EKB_top.tap|io:o|time:0|size:0|exec:0
-file:G:\ACTELL\EKB\EKB\Libero\synthesis\EKB_top.map|io:o|time:1588380598|size:28|exec:0
+file:G:\ACTELL\EKB\EKB\Libero1\Libero\synthesis\scratchproject.prs|io:o|time:1588425835|size:3192|exec:0
+file:G:\ACTELL\EKB\EKB\Libero1\Libero\synthesis\EKB_top.edn|io:o|time:1588425839|size:32783|exec:0
+file:G:\ACTELL\EKB\EKB\Libero1\Libero\synthesis\synwork\EKB_top_prem.srd|io:i|time:1588425838|size:4145|exec:0
+file:G:\ACTELL\EKB\EKB\Libero1\Libero\synthesis\EKB_top.sap|io:o|time:1588425838|size:113|exec:0
+file:G:\ACTELL\EKB\EKB\Libero1\Libero\synthesis\EKB_top.tap|io:o|time:0|size:0|exec:0
+file:G:\ACTELL\EKB\EKB\Libero1\Libero\synthesis\EKB_top.map|io:o|time:1588425839|size:28|exec:0
 file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\proasic\proasic3l.v|io:i|time:1487934450|size:57101|exec:0
-file:G:\ACTELL\EKB\EKB\Libero\synthesis\EKB_top.sap|io:o|time:1588380597|size:113|exec:0
-file:G:\ACTELL\EKB\EKB\Libero\synthesis\syntmp\EKB_top.plg|io:o|time:1588380598|size:97|exec:0
-file:G:\ACTELL\EKB\EKB\Libero\synthesis\EKB_top.srm|io:o|time:1588380598|size:65796|exec:0
-file:G:\ACTELL\EKB\EKB\Libero\synthesis\synlog\EKB_top_fpga_mapper.srr|io:o|time:1588380598|size:7173|exec:0
+file:G:\ACTELL\EKB\EKB\Libero1\Libero\synthesis\EKB_top.sap|io:o|time:1588425838|size:113|exec:0
+file:G:\ACTELL\EKB\EKB\Libero1\Libero\synthesis\syntmp\EKB_top.plg|io:o|time:1588425839|size:97|exec:0
+file:G:\ACTELL\EKB\EKB\Libero1\Libero\synthesis\EKB_top.srm|io:o|time:1588425839|size:65798|exec:0
+file:G:\ACTELL\EKB\EKB\Libero1\Libero\synthesis\synlog\EKB_top_fpga_mapper.srr|io:o|time:1588425839|size:7181|exec:0
 file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\m_proasic.exe|io:i|time:1479367034|size:10978304|exec:1
 file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\m_proasic.exe|io:i|time:1479368440|size:14125056|exec:1

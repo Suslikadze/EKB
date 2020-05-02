@@ -1,24 +1,24 @@
-C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\c_hdl.exe  -osyn  G:\ACTELL\EKB\EKB\Libero\synthesis\synwork\EKB_top_comp.srs  -top  work.EKB_top  -hdllog  G:\ACTELL\EKB\EKB\Libero\synthesis\synlog\EKB_top_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -nram -fixsmult -divnmod  -encrypt  -pro  -dmgen  G:\ACTELL\EKB\EKB\Libero\synthesis\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -vhdl2008  -ignore_undefined_lib  -lib work G:\ACTELL\EKB\EKB\Libero\hdl\my_component_pkg.vhd -lib work G:\ACTELL\EKB\EKB\Libero\hdl\VIDEO_CONSTANTS.vhd -lib work G:\ACTELL\EKB\EKB\Libero\hdl\reset_control.vhd -lib work G:\ACTELL\EKB\EKB\Libero\smartgen\PLL_0\PLL_0.vhd -lib work G:\ACTELL\EKB\EKB\Libero\smartgen\PLL_1\PLL_1.vhd -lib work G:\ACTELL\EKB\EKB\Libero\hdl\count_n_modul.vhd -lib work G:\ACTELL\EKB\EKB\Libero\hdl\gen_pix_str_frame.vhd -lib work G:\ACTELL\EKB\EKB\Libero\hdl\sync_gen_pix_str_frame.vhd -lib work G:\ACTELL\EKB\EKB\Libero\hdl\parall_to_serial.vhd -lib work G:\ACTELL\EKB\EKB\Libero\hdl\IS_SIM_serial_DDR.vhd -lib work G:\ACTELL\EKB\EKB\Libero\smartgen\PLL_SIM_IS\PLL_SIM_IS.vhd -lib work G:\ACTELL\EKB\EKB\Libero\smartgen\PLL_SIM_IS_1\PLL_SIM_IS_1.vhd -lib work G:\ACTELL\EKB\EKB\Libero\hdl\noise_gen.vhd -lib work G:\ACTELL\EKB\EKB\Libero\hdl\PATHERN_GENERATOR.vhd -lib work G:\ACTELL\EKB\EKB\Libero\hdl\TRS_gen.vhd -lib work G:\ACTELL\EKB\EKB\Libero\hdl\IS_SIM_Paralell.vhd -lib work G:\ACTELL\EKB\EKB\Libero\hdl\IMAGE_SENSOR_SIM.vhd -lib work G:\ACTELL\EKB\EKB\Libero\hdl\top.vhd 
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\c_hdl.exe  -osyn  G:\ACTELL\EKB\EKB\Libero1\Libero\synthesis\synwork\EKB_top_comp.srs  -top  work.EKB_top  -hdllog  G:\ACTELL\EKB\EKB\Libero1\Libero\synthesis\synlog\EKB_top_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -nram -fixsmult -divnmod  -encrypt  -pro  -dmgen  G:\ACTELL\EKB\EKB\Libero1\Libero\synthesis\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -vhdl2008  -ignore_undefined_lib  -lib work G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\noise_gen.vhd -lib work G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\my_component_pkg.vhd -lib work G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\VIDEO_CONSTANTS.vhd -lib work G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\PATHERN_GENERATOR.vhd -lib work G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\count_n_modul.vhd -lib work G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\gen_pix_str_frame.vhd -lib work G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\TRS_gen.vhd -lib work G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\IS_SIM_Paralell.vhd -lib work G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\parall_to_serial.vhd -lib work G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\IS_SIM_serial_DDR.vhd -lib work G:\ACTELL\EKB\EKB\Libero1\Libero\smartgen\PLL_SIM_IS\PLL_SIM_IS.vhd -lib work G:\ACTELL\EKB\EKB\Libero1\Libero\smartgen\PLL_SIM_IS_1\PLL_SIM_IS_1.vhd -lib work G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\IMAGE_SENSOR_SIM.vhd -lib work G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\reset_control.vhd -lib work G:\ACTELL\EKB\EKB\Libero1\Libero\smartgen\PLL_0\PLL_0.vhd -lib work G:\ACTELL\EKB\EKB\Libero1\Libero\smartgen\PLL_1\PLL_1.vhd -lib work G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\sync_gen_pix_str_frame.vhd -lib work G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\top.vhd 
 rc:0 success:1 runtime:2
-file:G:\ACTELL\EKB\EKB\Libero\synthesis\synwork\EKB_top_comp.srs|io:o|time:1588380596|size:4859|exec:0
-file:G:\ACTELL\EKB\EKB\Libero\synthesis\synlog\EKB_top_compiler.srr|io:o|time:1588380596|size:50892|exec:0
-file:G:\ACTELL\EKB\EKB\Libero\hdl\my_component_pkg.vhd|io:i|time:1588336575|size:1913|exec:0
-file:G:\ACTELL\EKB\EKB\Libero\hdl\VIDEO_CONSTANTS.vhd|io:i|time:1588378404|size:11625|exec:0
-file:G:\ACTELL\EKB\EKB\Libero\hdl\reset_control.vhd|io:i|time:1588282011|size:3205|exec:0
-file:G:\ACTELL\EKB\EKB\Libero\smartgen\PLL_0\PLL_0.vhd|io:i|time:1588160657|size:7474|exec:0
-file:G:\ACTELL\EKB\EKB\Libero\smartgen\PLL_1\PLL_1.vhd|io:i|time:1588165988|size:7671|exec:0
-file:G:\ACTELL\EKB\EKB\Libero\hdl\count_n_modul.vhd|io:i|time:1588277704|size:1341|exec:0
-file:G:\ACTELL\EKB\EKB\Libero\hdl\gen_pix_str_frame.vhd|io:i|time:1588359648|size:5806|exec:0
-file:G:\ACTELL\EKB\EKB\Libero\hdl\sync_gen_pix_str_frame.vhd|io:i|time:1588359689|size:8039|exec:0
-file:G:\ACTELL\EKB\EKB\Libero\hdl\parall_to_serial.vhd|io:i|time:1588282036|size:1080|exec:0
-file:G:\ACTELL\EKB\EKB\Libero\hdl\IS_SIM_serial_DDR.vhd|io:i|time:1588375491|size:4673|exec:0
-file:G:\ACTELL\EKB\EKB\Libero\smartgen\PLL_SIM_IS\PLL_SIM_IS.vhd|io:i|time:1588364096|size:7351|exec:0
-file:G:\ACTELL\EKB\EKB\Libero\smartgen\PLL_SIM_IS_1\PLL_SIM_IS_1.vhd|io:i|time:1588369695|size:7654|exec:0
-file:G:\ACTELL\EKB\EKB\Libero\hdl\noise_gen.vhd|io:i|time:1586915864|size:3679|exec:0
-file:G:\ACTELL\EKB\EKB\Libero\hdl\PATHERN_GENERATOR.vhd|io:i|time:1588357761|size:5263|exec:0
-file:G:\ACTELL\EKB\EKB\Libero\hdl\TRS_gen.vhd|io:i|time:1588336505|size:3264|exec:0
-file:G:\ACTELL\EKB\EKB\Libero\hdl\IS_SIM_Paralell.vhd|io:i|time:1588380573|size:15695|exec:0
-file:G:\ACTELL\EKB\EKB\Libero\hdl\IMAGE_SENSOR_SIM.vhd|io:i|time:1588378241|size:10900|exec:0
-file:G:\ACTELL\EKB\EKB\Libero\hdl\top.vhd|io:i|time:1588359747|size:12867|exec:0
+file:G:\ACTELL\EKB\EKB\Libero1\Libero\synthesis\synwork\EKB_top_comp.srs|io:o|time:1588425836|size:4871|exec:0
+file:G:\ACTELL\EKB\EKB\Libero1\Libero\synthesis\synlog\EKB_top_compiler.srr|io:o|time:1588425836|size:48490|exec:0
+file:G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\noise_gen.vhd|io:i|time:1586915864|size:3679|exec:0
+file:G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\my_component_pkg.vhd|io:i|time:1588336575|size:1913|exec:0
+file:G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\VIDEO_CONSTANTS.vhd|io:i|time:1588378404|size:11625|exec:0
+file:G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\PATHERN_GENERATOR.vhd|io:i|time:1588357761|size:5263|exec:0
+file:G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\count_n_modul.vhd|io:i|time:1588277704|size:1341|exec:0
+file:G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\gen_pix_str_frame.vhd|io:i|time:1588359648|size:5806|exec:0
+file:G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\TRS_gen.vhd|io:i|time:1588336505|size:3264|exec:0
+file:G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\IS_SIM_Paralell.vhd|io:i|time:1588380667|size:15695|exec:0
+file:G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\parall_to_serial.vhd|io:i|time:1588282036|size:1080|exec:0
+file:G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\IS_SIM_serial_DDR.vhd|io:i|time:1588375491|size:4673|exec:0
+file:G:\ACTELL\EKB\EKB\Libero1\Libero\smartgen\PLL_SIM_IS\PLL_SIM_IS.vhd|io:i|time:1588364096|size:7351|exec:0
+file:G:\ACTELL\EKB\EKB\Libero1\Libero\smartgen\PLL_SIM_IS_1\PLL_SIM_IS_1.vhd|io:i|time:1588369695|size:7654|exec:0
+file:G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\IMAGE_SENSOR_SIM.vhd|io:i|time:1588380878|size:12088|exec:0
+file:G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\reset_control.vhd|io:i|time:1588282011|size:3205|exec:0
+file:G:\ACTELL\EKB\EKB\Libero1\Libero\smartgen\PLL_0\PLL_0.vhd|io:i|time:1588160657|size:7474|exec:0
+file:G:\ACTELL\EKB\EKB\Libero1\Libero\smartgen\PLL_1\PLL_1.vhd|io:i|time:1588165988|size:7671|exec:0
+file:G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\sync_gen_pix_str_frame.vhd|io:i|time:1588359689|size:8039|exec:0
+file:G:\ACTELL\EKB\EKB\Libero1\Libero\hdl\top.vhd|io:i|time:1588359747|size:12867|exec:0
 file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\c_hdl.exe|io:i|time:1479366364|size:1337856|exec:1
 file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\c_hdl.exe|io:i|time:1479366568|size:1973248|exec:1
