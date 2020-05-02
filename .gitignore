@@ -1,8 +1,7 @@
-/coreconsole
-/designer
-/simulation
-/synthesis
-/tooldata
-/viewdraw
-/viewdraw
+/coreconsole/
+/designer/
+/simulation/
+/synthesis/
+/tooldata/
+/viewdraw/
 *.prjx
